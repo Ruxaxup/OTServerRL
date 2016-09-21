@@ -1,0 +1,7 @@
+<raids>
+<!-- Raids: -->
+<raid name="Ferumbras" file="Ferumbras.xml" interval2="6000" margin="0" reftype="single" ref="no"/>
+<raid name="Orshabaal" file="Orshabaal.xml" interval2="3000" margin="0" reftype="single" ref="no"/>
+<raid name="demodras" file="demodras.xml" interval2="4000" margin="0" reftype="single" ref="no"/>
+<raid name="Pirates" file="pirates.xml" interval2="3000" margin="0" reftype="single" ref="no"/>
+</raids>

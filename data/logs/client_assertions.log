@@ -1,0 +1,390 @@
+----- 10/08/2009 14:44:20 - GOD Alissow (127.0.0.1) -----
+Debug Assertion 8.50 Control.cpp 1236
+Sun Aug 09 18:22:39 2009
+Graphic Engine: DirectX5 (0)
+Operating System: Windows XP Professional in BRA
+Processor: Intel Pentium DUAL E216
+Video Card: Intel (R) 82945
+Last Packet Types: 044 000 000 000 000 000 000 000 000 000
+Last Packet: 044 086 227 242 066 036 000 000 000 000 000 000 000 000 000 000
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1326: exception occurred (Type = 44) (MainWindow = 150618424), reason:
+Control.cpp 1236: unknown packet type during login (Type = 44)
+
+
+----- 08/02/2010 20:10:41 - Bob Marley (201.28.192.59) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows XP Professional in BRA
+Processor: Intel Celeron 2.66GHZ
+Video Card: NVIDIA GeForce 6200
+Last Packet Types: 170 160 131 131 131 131 131 131 131 131
+Last Packet: 131 168 001 124 000 007 043 131 166 001 125 000 007 043 131 167
+Player Position: [424,129,7]
+Player Name: Bob Marley (Alissow OTs)
+Player Action: 049 056 057 046 050 057 046 053 057 046 050 048 055 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = -1) (MainWindow = 15047392), reason:
+Network.cpp 491: exception occurred, reason:
+Network.cpp 478: exception occurred, reason:
+Network.cpp 444: packet size does not fit to symmetric encryption (PacketSize = 15341)
+Mon Feb 08 20:10:27 2010
+Debug Assertion 8.54 Network.cpp 444
+
+----- 08/02/2010 20:57:33 - Bob Marley (201.28.192.59) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows XP Professional in BRA
+Processor: Intel Celeron 2.66GHZ
+Video Card: NVIDIA GeForce 6200
+Last Packet Types: 170 160 131 131 131 131 131 131 131 131
+Last Packet: 030 131 102 000 049 000 007 043 131 100 000 050 000 007 043 131
+Player Position: [102,54,7]
+Player Name: Bob Marley (Alissow OTs)
+Player Action: 049 056 057 046 050 057 046 053 057 046 050 048 055 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = -1) (MainWindow = 13605704), reason:
+Network.cpp 491: exception occurred, reason:
+Network.cpp 478: exception occurred, reason:
+Network.cpp 444: packet size does not fit to symmetric encryption (PacketSize = 15341)
+Mon Feb 08 20:57:49 2010
+Debug Assertion 8.54 Network.cpp 444
+
+----- 12/02/2010 15:05:45 - Ze da pikadura (189.11.53.158) -----
+Comment: 
+Graphic Engine: OpenGL (1)
+Operating System: Windows XP Professional in BRA
+Processor: Intel Pentium 4 3.00GHZ
+Video Card: Intel (R) G33/G
+Last Packet Types: 131 131 162 100 108 131 131 162 100 108
+Last Packet: 108 082 000 053 000 007 001 100 081 000 055 000 007 208 001 023
+Player Position: [81,55,7]
+Player Name: Naxes (Alissow OTs)
+Player Action: 049 056 057 046 050 057 046 053 050 046 050 049 056 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = -1) (MainWindow = 148085656), reason:
+Network.cpp 491: exception occurred, reason:
+Network.cpp 478: exception occurred, reason:
+Network.cpp 444: packet size does not fit to symmetric encryption (PacketSize = 15341)
+Fri Jan 01 15:09:30 2010
+Debug Assertion 8.54 Network.cpp 444
+
+----- 12/02/2010 15:05:48 - Kreuus (189.31.104.13) -----
+Comment: 
+Graphic Engine: OpenGL (1)
+Operating System: Windows Vista Ultimate Edition 32 Bit in BRA
+Processor: Intel Celeron E1400 @ 2
+Video Card: NVIDIA GeForce 9400 GT
+Last Packet Types: 131 131 162 101 109 131 131 100 108 131
+Last Packet: 108 086 000 055 000 007 002 100 084 000 055 000 007 152 001 198
+Player Position: [84,54,7]
+Player Name: Kreuus (Alissow OTs)
+Player Action: 049 056 057 046 050 057 046 053 050 046 050 049 056 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = -1) (MainWindow = 22565408), reason:
+Network.cpp 491: exception occurred, reason:
+Network.cpp 478: exception occurred, reason:
+Network.cpp 444: packet size does not fit to symmetric encryption (PacketSize = 15341)
+Fri Feb 12 15:05:09 2010
+Debug Assertion 8.54 Network.cpp 444
+
+----- 12/02/2010 15:06:06 - Kreuus (189.31.104.13) -----
+Comment: 
+Graphic Engine: OpenGL (1)
+Operating System: Windows Vista Ultimate Edition 32 Bit in BRA
+Processor: Intel Celeron E1400 @ 2
+Video Card: NVIDIA GeForce 9400 GT
+Last Packet Types: 131 131 100 108 131 131 106 108 131 131
+Last Packet: 109 080 000 056 000 007 001 080 000 057 000 007 103 102 003 235
+Player Position: [80,58,7]
+Player Name: Kreuus (Alissow OTs)
+Player Action: 049 056 057 046 050 057 046 053 050 046 050 049 056 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = -1) (MainWindow = 21583008), reason:
+Network.cpp 491: exception occurred, reason:
+Network.cpp 478: exception occurred, reason:
+Network.cpp 444: packet size does not fit to symmetric encryption (PacketSize = 15341)
+Fri Feb 12 15:05:25 2010
+Debug Assertion 8.54 Network.cpp 444
+
+----- 15/06/2012 21:36:50 - Zylux (201.167.243.222) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Business Edition 32 Bit in ESP
+Processor: Intel Core 2 DUO T6500
+Video Card: Mobile Intel (R) 4 SER
+Last Packet Types: 131 131 104 109 131 131 100 108 131 131
+Last Packet: 108 017 004 058 004 007 001 100 015 004 059 004 007 152 001 000
+Player Position: [1040,1081,7]
+Player Name: Zylux (Forgotten 8.60)
+Player Action: 049 056 057 046 049 054 048 046 053 051 046 049 054 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = -1) (MainWindow = 29065048), reason:
+Network.cpp 445: exception occurred, reason:
+Network.cpp 432: exception occurred, reason:
+Network.cpp 398: packet size does not fit to symmetric encryption (PacketSize = 15341)
+Fri Jun 15 21:36:55 2012
+Debug Assertion 8.60 Network.cpp 398
+
+----- 15/06/2012 21:37:25 - Zylux (201.167.243.222) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Business Edition 32 Bit in ESP
+Processor: Intel Core 2 DUO T6500
+Video Card: Mobile Intel (R) 4 SER
+Last Packet Types: 131 131 100 108 131 131 100 108 131 131
+Last Packet: 108 046 004 044 004 007 001 100 046 004 042 004 007 164 017 073
+Player Position: [1072,1066,7]
+Player Name: Zylux (Forgotten 8.60)
+Player Action: 049 056 057 046 049 054 048 046 053 051 046 049 054 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = -1) (MainWindow = 30231712), reason:
+Network.cpp 445: exception occurred, reason:
+Network.cpp 432: exception occurred, reason:
+Network.cpp 398: packet size does not fit to symmetric encryption (PacketSize = 15341)
+Fri Jun 15 21:37:25 2012
+Debug Assertion 8.60 Network.cpp 398
+
+----- 15/06/2012 21:38:06 - Zylux (201.167.243.222) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Business Edition 32 Bit in ESP
+Processor: Intel Core 2 DUO T6500
+Video Card: Mobile Intel (R) 4 SER
+Last Packet Types: 131 131 100 108 131 131 104 101 109 131
+Last Packet: 109 054 004 239 003 007 001 053 004 238 003 007 101 161 001 000
+Player Position: [1079,1007,7]
+Player Name: Zylux (Forgotten 8.60)
+Player Action: 049 056 057 046 049 054 048 046 053 051 046 049 054 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = -1) (MainWindow = 29314208), reason:
+Network.cpp 445: exception occurred, reason:
+Network.cpp 432: exception occurred, reason:
+Network.cpp 398: packet size does not fit to symmetric encryption (PacketSize = 15341)
+Fri Jun 15 21:38:12 2012
+Debug Assertion 8.60 Network.cpp 398
+
+----- 15/06/2012 21:45:51 - Zylux (201.167.243.222) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Business Edition 32 Bit in ESP
+Processor: Intel Core 2 DUO T6500
+Video Card: Mobile Intel (R) 4 SER
+Last Packet Types: 131 131 100 108 131 131 103 109 131 131
+Last Packet: 180 018 002 000 047 116 108 011 004 009 004 007 001 100 012 004
+Player Position: [1035,1033,7]
+Player Name: Zylux (Forgotten 8.60)
+Player Action: 049 056 057 046 049 054 048 046 053 051 046 049 054 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = -1) (MainWindow = 30166176), reason:
+Network.cpp 445: exception occurred, reason:
+Network.cpp 432: exception occurred, reason:
+Network.cpp 398: packet size does not fit to symmetric encryption (PacketSize = 15341)
+Fri Jun 15 21:45:25 2012
+Debug Assertion 8.60 Network.cpp 398
+
+----- 15/06/2012 21:47:22 - Zylux (201.167.243.222) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Business Edition 32 Bit in ESP
+Processor: Intel Core 2 DUO T6500
+Video Card: Mobile Intel (R) 4 SER
+Last Packet Types: 131 131 109 180 131 131 109 180 131 131
+Last Packet: 180 018 009 000 047 099 032 109 097 114 116 101 108 109 006 004
+Player Position: [1029,1049,7]
+Player Name: Zylux (Forgotten 8.60)
+Player Action: 049 056 057 046 049 054 048 046 053 051 046 049 054 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = -1) (MainWindow = 30624928), reason:
+Network.cpp 445: exception occurred, reason:
+Network.cpp 432: exception occurred, reason:
+Network.cpp 398: packet size does not fit to symmetric encryption (PacketSize = 15341)
+Fri Jun 15 21:47:24 2012
+Debug Assertion 8.60 Network.cpp 398
+
+----- 15/06/2012 21:47:57 - Zylux (201.167.243.222) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Business Edition 32 Bit in ESP
+Processor: Intel Core 2 DUO T6500
+Video Card: Mobile Intel (R) 4 SER
+Last Packet Types: 131 131 109 180 131 131 106 108 180 131
+Last Packet: 180 018 009 000 047 099 032 109 097 114 116 101 108 109 020 004
+Player Position: [1042,1055,7]
+Player Name: Zylux (Forgotten 8.60)
+Player Action: 049 056 057 046 049 054 048 046 053 051 046 049 054 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = -1) (MainWindow = 30559392), reason:
+Network.cpp 445: exception occurred, reason:
+Network.cpp 432: exception occurred, reason:
+Network.cpp 398: packet size does not fit to symmetric encryption (PacketSize = 15341)
+Fri Jun 15 21:48:03 2012
+Debug Assertion 8.60 Network.cpp 398
+
+----- 15/06/2012 21:57:39 - Zylux (201.167.243.222) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Business Edition 32 Bit in ESP
+Processor: Intel Core 2 DUO T6500
+Video Card: Mobile Intel (R) 4 SER
+Last Packet Types: 131 131 101 109 131 131 101 109 131 131
+Last Packet: 180 018 009 000 047 099 032 109 097 114 116 101 108 109 216 003
+Player Position: [984,1138,5]
+Player Name: Zylux (Forgotten 8.60)
+Player Action: 049 056 057 046 049 054 048 046 053 051 046 049 054 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = -1) (MainWindow = 31083680), reason:
+Network.cpp 445: exception occurred, reason:
+Network.cpp 432: exception occurred, reason:
+Network.cpp 398: packet size does not fit to symmetric encryption (PacketSize = 15341)
+Fri Jun 15 21:57:30 2012
+Debug Assertion 8.60 Network.cpp 398
+
+----- 15/06/2012 21:59:54 - Zylux (201.167.243.222) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Business Edition 32 Bit in ESP
+Processor: Intel Core 2 DUO T6500
+Video Card: Mobile Intel (R) 4 SER
+Last Packet Types: 131 131 101 109 131 131 101 109 131 131
+Last Packet: 109 219 003 129 004 010 001 219 003 128 004 010 101 118 001 000
+Player Position: [987,1151,10]
+Player Name: Zylux (Forgotten 8.60)
+Player Action: 049 056 057 046 049 054 048 046 053 051 046 049 054 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = -1) (MainWindow = 30887072), reason:
+Network.cpp 445: exception occurred, reason:
+Network.cpp 432: exception occurred, reason:
+Network.cpp 398: packet size does not fit to symmetric encryption (PacketSize = 15341)
+Fri Jun 15 21:59:54 2012
+Debug Assertion 8.60 Network.cpp 398
+
+----- 27/06/2012 21:31:05 - Gozter (201.167.233.110) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Business Edition 32 Bit in ESP
+Processor: Intel Core 2 DUO T6500
+Video Card: Mobile Intel (R) 4 SER
+Last Packet Types: 107 107 107 107 107 107 107 107 107 131
+Last Packet: 107 178 004 052 004 007 001 099 000 070 055 000 064 000 107 178
+Player Position: [1205,1080,7]
+Player Name: Gozter (Forgotten 8.60)
+Player Action: 049 056 057 046 049 054 048 046 055 051 046 050 052 052 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = 107) (MainWindow = 3899224), reason:
+Communication.cpp 1846: exception occurred (rx = 5) (ry = 5), reason:
+Communication.cpp 1830: Object is not where it should be, reason:
+ hx: 5 hy: 5 hz: 0 Pos: 9
+ Cylinder (1):  (4655,0) (99,1073757206) (99,1073757207) (99,1073757205) (99,1073757202) (99,1073757201) (99,1073757199) (99,1073757203) (99,1073757200)
+ Cylinder (2):  (4655,0) (99,1073757200) (99,1073757203) (99,1073757199) (99,1073757201) (99,1073757202) (99,1073757205) (99,1073757207) (99,1073757206)(-)
+Wed Jun 27 21:30:42 2012
+Debug Assertion 8.60 Communication.cpp 1830
+
+----- 13/01/2014 23:07:04 - Gozter (187.176.112.188) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Business Edition 64 Bit in ESP
+Processor: Intel Core 2 DUO T6500
+Video Card: Mobile Intel FAMILIA (
+Last Packet Types: 109 160 170 131 160 140 180 109 131 132
+Last Packet: 180 025 042 000 085 115 105 110 103 032 111 110 101 032 111 102
+Player Position: [1583,1010,6]
+Player Name: Gozter (Level: 263 Voc: EK)
+Player Action: 049 056 057 046 049 053 052 046 053 056 046 051 053 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = 109) (MainWindow = 2981704), reason:
+Communication.cpp 2151: exception occurred, reason:
+Map.cpp 321: assertion failed (rx = -67), reason:
+In(rx,0,MAPSIZE_X-1) [bug0000013]
+Mon Jan 13 23:06:53 2014
+Debug Assertion 8.60 Map.cpp 321
+
+----- 11/01/2015 16:05:18 - Legolas (187.134.25.161) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Home Premium Edition 64 Bit in MEX
+Processor: Dual Core Intel Celeron T3000 @ 1
+Video Card: Mobile Intel (R) 4 SER
+Last Packet Types: 109 109 109 109 131 140 160 109 109 109
+Last Packet: 109 213 003 200 004 003 001 213 003 199 004 003 109 217 003 198
+Player Position: [979,1215,7]
+Player Name: Legolas (Zekra OT 8.6)
+Player Action: 049 056 055 046 049 055 054 046 049 049 050 046 049 056 056 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = 109) (MainWindow = 41664064), reason:
+Communication.cpp 2151: exception occurred, reason:
+Communication.cpp 2142: MoveCreature has been received for a coordinate where there is no creature anymore [bug0000017], reason:
+ sx: 14 sy: 13 sz: 0
+ Position: 2
+ zx: 14 zy: 12 zz: 0
+ dx: 0 dy: -1 dz: 0
+ abs_sx: 985 abs_sy: 1222 abs_sz: 7
+ abs_zx: 985 abs_zy: 1221 abs_zz: 7
+ Start Cylinder (1):  (410,0) (6373,0)
+ Start Cylinder (2):  (410,0) (6373,0)(-)(-)(-)(-)(-)(-)(-)(-)
+ Destination Cylinder (1):  (410,0) (6374,0) (1982,0)
+ Destination Cylinder (2):  (410,0) (6374,0) (1982,0)(-)(-)(-)(-)(-)(-)(-)
+Sun Jan 11 16:05:14 2015
+Debug Assertion 8.60 Communication.cpp 2142
+
+----- 22/01/2015 01:15:11 - Guted (192.168.15.2) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Business Edition 64 Bit in ESP
+Processor: Intel Core 2 DUO T6500
+Video Card: Mobile Intel FAMILIA (
+Last Packet Types: 109 107 109 109 131 131 142 140 133 131
+Last Packet: 109 117 004 136 003 007 002 117 004 137 003 007 107 117 004 137
+Player Position: [1142,905,7]
+Player Name: Guted (Zekra OT 8.6)
+Player Action: 049 057 050 046 049 054 056 046 049 053 046 050 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = 109) (MainWindow = 42106696), reason:
+Communication.cpp 2151: exception occurred, reason:
+Communication.cpp 1950: Player object is not where it should be, reason:
+ hx: 8 hy: 6 hz: 0
+ Cylinder (1):  (103,0) (4542,0) (99,1073759778)
+ Cylinder (2):  (103,0) (4542,0) (99,1073759778)(-)(-)(-)(-)(-)(-)(-)
+Thu Jan 22 01:14:47 2015
+Debug Assertion 8.60 Communication.cpp 1950
+
+----- 22/01/2015 01:15:46 - Guted (192.168.15.2) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Business Edition 64 Bit in ESP
+Processor: Intel Core 2 DUO T6500
+Video Card: Mobile Intel FAMILIA (
+Last Packet Types: 109 107 109 109 110 107 110 109 140 109
+Last Packet: 109 114 004 133 003 007 002 114 004 132 003 007 131 120 004 135
+Player Position: [1142,904,7]
+Player Name: Guted (Zekra OT 8.6)
+Player Action: 049 057 050 046 049 054 056 046 049 053 046 050 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = 109) (MainWindow = 39931016), reason:
+Communication.cpp 2151: exception occurred, reason:
+Communication.cpp 1950: Player object is not where it should be, reason:
+ hx: 8 hy: 6 hz: 0
+ Cylinder (1):  (4530,0) (99,1073759778)
+ Cylinder (2):  (4530,0) (99,1073759778)(-)(-)(-)(-)(-)(-)(-)(-)
+Thu Jan 22 01:15:26 2015
+Debug Assertion 8.60 Communication.cpp 1950
+
