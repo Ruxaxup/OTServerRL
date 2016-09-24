@@ -17,6 +17,10 @@ function onSay(cid, words, param, channel)
 		return true
 	end
 
+	if(questID == LIFE_STEAL_PERC) then
+		doPlayerSetStorageValue(cid,LIFE_STEAL_PERC,getPlayerStorageValue(cid,LIFE_STEAL_PERC) + 0.05 )
+	end
+
 	doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, getPlayerStorageValue(cid,questID))
 	local allItems = true
 	for k,v in pairs(itemsCount) do 

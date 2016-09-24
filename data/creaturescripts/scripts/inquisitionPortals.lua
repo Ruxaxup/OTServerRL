@@ -3,7 +3,7 @@ function onDeath(cid, corpse, killer)
 	registerCreatureEvent(cid, "inquisitionPortals")
 
 	local creaturename = getCreatureName(cid)
-
+	
 --- positions where the teleports will be created:
 
 	local ushuriel_in_pos = {x=970, y=1420, z=8, stackpos=2} 
@@ -28,7 +28,7 @@ function onDeath(cid, corpse, killer)
 	local message = "You now have 3 minutes to exit this room through the teleporter. It will bring you to the next room only during his time or the teleporter will disappear"
 
 	if creaturename == 'Ushuriel' then
-
+			print(creaturename)
 			teleport = doCreateTeleport(tpID, ushuriel_to_pos, ushuriel_in_pos)
 
 			doSendMagicEffect(ushuriel_in_pos, doEffect)
@@ -87,8 +87,16 @@ function onDeath(cid, corpse, killer)
 
 			addEvent(removeTeleportInBrothersWard, (180*time_to_pass))
 
+	elseif creaturename == 'Brigand' then
+		local param = {}		
+		tpPosition	= getClosestFreeTile(cid, getCreaturePosition(cid), true, false)
+		tpPosition.stackpos = 2
+		param.pos = tpPosition
+		teleport = doCreateTeleport(tpID, teleportPosition, tpPosition)
+		doSendAnimatedText(tpPosition, "Secret...",TEXTCOLOR_YELLOW)
+		addEvent(removeBrigandTeleport, 30, param)
 	
-		end 
+	end 
 end
 
 function removeTeleportInUshurielWard()
@@ -138,3 +146,11 @@ function removeTeleportInBrothersWard()
 	return TRUE
 	end
 end 
+
+function removeBrigandTeleport(param)
+	if getThingfromPos(param.position).itemid == 1387 then
+		doRemoveItem(getThingfromPos(param.position).uid,1)
+		doSendMagicEffect(param.position, CONST_ME_POFF)	
+		return TRUE
+	end
+end

@@ -7,7 +7,7 @@ function onLogin(cid)
 	-- CONFIG
 	local secondsPerHit       =   2			-- THE ATTACKSPEED (1 hit per 2 seconds; default) 
 	local manaGenPerSec       =   10 		-- MANA USED PER SEC
-	local offlineModifier     =   4 		-- FROM 0-1 (or higher if you wish). How fast you are skillin on offline training compared to normal (0.5 = 50%)
+	local offlineModifier     =   1 		-- FROM 0-1 (or higher if you wish). How fast you are skillin on offline training compared to normal (0.5 = 50%)
 	local maxSecondsTraining  =   60 * 60 * 12 -- (Default 12 hours)
 	--END of config
 
@@ -57,8 +57,8 @@ function onLogin(cid)
 		doPlayerAddSkillTry(cid, 5, skillTries)
 		local skillAfterShield = getPlayerSkillLevel(cid, 5)
 		
-		doPlayerSendTextMessage(cid, MESSAGE_EVENT_DEFAULT, "Your ".. skillNames[skill] .." skill changed from level ".. skillBefore.."  to level ".. skillAfter ..".")
-		doPlayerSendTextMessage(cid, MESSAGE_EVENT_DEFAULT, "Your Shielding skill changed from level ".. skillBeforeShield.."  to level ".. skillAfterShield ..". ")
+		doPlayerSendTextMessage(cid, MESSAGE_EVENT_DEFAULT, "Your ".. skillNames[skill] .." skill changed from level ".. skillBefore.." to level ".. skillAfter ..".")
+		doPlayerSendTextMessage(cid, MESSAGE_EVENT_DEFAULT, "Your Shielding skill changed from level ".. skillBeforeShield.." to level ".. skillAfterShield ..". ")
 		doPlayerSetStorageValue(cid, OFFLINE_TRAINING, -1) -- Resetea el skill
 	end
 	return TRUE

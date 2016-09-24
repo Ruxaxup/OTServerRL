@@ -1,0 +1,54 @@
+x = 1023, y = 693, z =7
+x = 1034, y = 1042, z =7
+
+
+Les vengo a mostrar diversos usos del comando /attr
+Como vi que no estaba posteado y casi nadie sabe estos
+comandos decidi ponerlos para que los vean(;
+
+Miren los primeros son los que ya casi saben todos: Luego son los complicados y desconocidos.
+
+/attr group 1,2,3,4,5,6 [dan player,tutor,gm,cm y god]
+
+/attr aid [pones action a un item que tengas enfrente].
+
+/attr uid [pones uniqueId a un item que tengas enfrente].
+
+/attr set attack 45 [pones 45 de ataque a un arma, puedes ponerle el ataque que quieras]
+
+/attr set defense 40 [Pones 40 de defensa a una armadura, escudo o weapon]
+
+/attr set extrattack 5 [pones extraattack a un arma, dira su ataque +5 attk]
+
+/attr set extradefense 5 [pones extradefense a un arma dira, +5 def]
+
+/attr set basespeed 200 [le pones 200 de velocidad a un player, no es extra, si normalmente tiene 500 le baja a 200]
+
+/attr set attackspeed 500 [pones medio segundo de ataque a un arma .la que sea. puedes poner hasta 1 milesima]
+
+/attr set name [poner un nombre a un item]
+
+/attr set plural [poner nombre a muchos items, ejemplo 5 arrows]
+
+/attr set armor 20 [aumentar a 20 la defensa de una armadura]
+
+/attr set hitchance 15 [aumenta la probabilidad de ataque de los crossbow, sirve de mucho]
+
+/attr set description "text [poner descripcion a un item sustituyes text por lo que pondras]
+
+/attr vocation 1,2,3,4,5,6,7,8 [cambiar de vocacion por numero, 1:sorc, 2 druid, 3 pally, 4 knight y asi denuevo]
+
+/attr town 1,2 [ponerle de donde es citizen un player, ocupan el numero del templo]
+
+/attr skull 1,2,3,4,5 [colocarle skull a un player 1: yellow, 2 blank, 3 green, 4 red, 5 black]
+
+/attr guildrank [ponerle otro rango de su guild a un player]
+
+/attr guildnick [ponerle nick a un player en su guild]
+
+/attr promotion [ponerle promotion a un player]
+
+/attr range [ponerle rango de ataque a un crossbow ejemplo: 7. atacara de 7 sqm de distancia.
+
+/attr set fyi "texto [pones un mensage del dia a un player, donde dice texto pones lo que sea, tiene que llevar comillas]
+

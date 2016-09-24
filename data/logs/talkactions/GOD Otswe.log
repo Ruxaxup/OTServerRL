@@ -32,3 +32,29 @@
 [07/06/2012 13:54:42] /m demon
 [07/06/2012 13:54:46] /t
 [07/06/2012 13:54:50] /m demon
+[24/09/2016 00:24:44] /down
+[24/09/2016 00:24:50] /a 30
+[24/09/2016 00:24:53] /a 3
+[24/09/2016 00:24:54] /a 3
+[24/09/2016 00:46:49] /i 12609
+[24/09/2016 00:50:08] /attr attackspeed 500
+[24/09/2016 00:50:49] /attr set extrattack 500
+[24/09/2016 00:51:05] /attr set extrattack 500
+[24/09/2016 00:51:13] /attr set extrattack 500
+[24/09/2016 00:51:48] /i knife
+[24/09/2016 00:51:53] /attr set extrattack 500
+[24/09/2016 00:51:56] /attr set extrattack 500
+[24/09/2016 00:52:03] /attr set attackspeed 500
+[24/09/2016 00:52:19] /attr aid 100
+[24/09/2016 00:52:23] /attr set attackspeed 500
+[24/09/2016 00:52:26] /attr set extrattack 500
+[24/09/2016 00:52:48] /attr set extrattack 250
+[24/09/2016 00:52:52] /attr set extrattack 100
+[24/09/2016 00:53:07] /attr set attack 100
+[24/09/2016 00:53:23] /attr set extrattack 100
+[24/09/2016 00:53:41] /attr set extrattack 100
+[24/09/2016 00:53:45] /attr set attack 100
+[24/09/2016 00:54:12] /attr set extrattack 100
+[24/09/2016 00:54:14] /attr set extrattack 100
+[24/09/2016 00:55:24] /attr set extraattack 100
+[24/09/2016 00:55:37] /attr set extraattack 600

@@ -8469,15 +8469,7 @@
 	<spawn centerx="2151" centery="1937" centerz="6" radius="1">
 		<monster name="Frost Dragon" x="0" y="0" z="6" spawntime="60" />
 	</spawn>
-	<spawn centerx="1085" centery="616" centerz="7" radius="1">
-		<monster name="Wolf" x="-1" y="1" z="7" spawntime="120" />
-	</spawn>
-	<spawn centerx="1104" centery="616" centerz="7" radius="1">
-		<monster name="Lion" x="-1" y="0" z="7" spawntime="120" />
-	</spawn>
-	<spawn centerx="1064" centery="617" centerz="7" radius="1">
-		<monster name="Deer" x="0" y="1" z="7" spawntime="120" />
-	</spawn>
+	<spawn centerx="1051" centery="695" centerz="7" radius="5" />
 	<spawn centerx="1218" centery="783" centerz="7" radius="5">
 		<monster name="Undead Gladiator" x="-1" y="-4" z="7" spawntime="60" />
 		<monster name="Undead Gladiator" x="-4" y="1" z="7" spawntime="60" />
@@ -8964,10 +8956,6 @@
 		<monster name="Gozzler" x="-1" y="1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2060" centery="945" centerz="7" radius="1" />
-	<spawn centerx="958" centery="946" centerz="7" radius="9">
-		<monster name="Hellspawn" x="0" y="6" z="7" spawntime="60" />
-		<monster name="Hellspawn" x="1" y="7" z="7" spawntime="60" />
-	</spawn>
 	<spawn centerx="2002" centery="946" centerz="7" radius="1">
 		<monster name="Ghoul" x="1" y="0" z="7" spawntime="60" />
 		<monster name="Ghoul" x="1" y="1" z="7" spawntime="60" />

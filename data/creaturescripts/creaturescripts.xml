@@ -13,6 +13,7 @@
 <event type="reportbug" name="SaveReportBug" script="reportbug.lua"/>
 
 <event type="advance" name="AdvanceSave" event="script" value="advancesave.lua"/>
+<event type="advance" name="AdvanceStats" event="script" value="advanceStats.lua"/>
 
 
 <event type="think" name="Idle" event="script" value="idle.lua"/>
@@ -26,7 +27,9 @@
 
 <event type="kill" name="PlayerKill" event="script" value="arenakill.lua"/>
 <event type="death" name="Azerus" event="script" value="azerus.lua"/>
-<event type="kill" name="KillingInTheNameOf" event="script" value="killinginthenameof.lua"/>
+<event type="kill" name="KillingInTheNameOf" event="script" value="tasks deaths.lua"/>
+<event type="combat" name="CombatTactics" event="script" value="combatTactics.lua" />
 
+<event type="kill" name="BrigandQuest" event="script" value="brigand.lua"/>
 
 </creaturescripts>

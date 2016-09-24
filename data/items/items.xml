@@ -1891,9 +1891,10 @@
         <attribute key="armor" value="3" />
         <attribute key="slotType" value="necklace" />
     </item>
-    <item id="2139" article="an" name="ancient tiara">
+    <item id="2139" article="an" name="magnificent tiara">
         <attribute key="weight" value="450" />
         <attribute key="slotType" value="necklace" />
+        <attribute key="description" value="This tiara belongs to a powerful woman. You can sense an evil energy inside." />
     </item>
     <item id="2140" article="a" name="holy scarab">
         <attribute key="weight" value="500" />
@@ -2479,8 +2480,9 @@
         <attribute key="runeSpellName" value="adori mas frigo" />
         <attribute key="weight" value="120" />
     </item>
-    <item fromid="2275" toid="2276" article="a" name="spell rune">
+    <item fromid="2275" toid="2276" article="a" name="teleport rune">
         <attribute key="weight" value="120" />
+        <attribute key="description" value="Despite it can teleport you to almost any place, you must use it wisely." />
     </item>
     <item id="2277" article="an" name="energy field rune">
         <attribute key="runeSpellName" value="adevo grav vis" />
@@ -18116,7 +18118,13 @@
 		<attribute key="weight" value="140"/>
 	</item>
 
-
+    <!-- Unregistered item -->
+    <item id="12609" article="an" name="Golden Sceptre">
+        <attribute key="weight" value="6800" />
+        <attribute key="defense" value="40" />
+        <attribute key="attack" value="70" />
+        <attribute key="weaponType" value="club" />
+    </item>
 
 
 

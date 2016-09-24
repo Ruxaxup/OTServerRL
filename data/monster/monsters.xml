@@ -572,5 +572,9 @@
     <monster name="Hellgorak" file="inquisition bosses/hellgorak.xml"/>
     <monster name="Latrivan" file="inquisition bosses/latrivan.xml"/>
     <monster name="Madareth" file="inquisition bosses/madareth.xml"/>
+
+
+    <!-- Special -->
+    <monster name="Brigand" file="Special/Brigand.xml" />
 </monsters>
 

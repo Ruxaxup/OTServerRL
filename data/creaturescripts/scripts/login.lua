@@ -54,6 +54,9 @@ registerCreatureEvent(cid, "Arenakill")
 registerCreatureEvent(cid, "PlayerKill")
 registerCreatureEvent(cid, "KillingInTheNameOf")
 registerCreatureEvent(cid, "Daily quests killing")
+registerCreatureEvent(cid, "CombatTactics")
+registerCreatureEvent(cid, "AdvanceStats")
+registerCreatureEvent(cid, "BrigandQuest")
 
    
  if (InitArenaScript ~= 0) then

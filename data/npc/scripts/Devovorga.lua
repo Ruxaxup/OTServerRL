@@ -20,6 +20,38 @@ function onThink()                             npcHandler:onThink()             
 
 npcHandler:setMessage(MESSAGE_GREET, "Greetings |PLAYERNAME|. What do you want? If you want to be helpful just say {mission}, if not, just go away!! Freaking noob...") 
 
+local islandPosition = {x = 765, y = 962, z = 2}
+
+function teleportParty(cid)
+    local pos, memberlist = getCreaturePosition(cid), getPartyMembers(cid)
+    if(memberlist == nil or type(memberlist) ~= 'table' or table.maxn(memberlist) <= 1) then
+        doPlayerSendDefaultCancel(cid, RETURNVALUE_NOPARTYMEMBERSINRANGE)
+        doSendMagicEffect(pos, CONST_ME_POFF)
+        return false
+    end
+
+    local affectedList = {}
+    for _, pid in ipairs(memberlist) do
+        if(getDistanceBetween(getCreaturePosition(pid), pos) <= 36) then
+            table.insert(affectedList, pid)
+        end
+    end
+
+    local tmp = table.maxn(affectedList)
+    if(tmp <= 1) then
+        doPlayerSendDefaultCancel(cid, RETURNVALUE_NOPARTYMEMBERSINRANGE)
+        doSendMagicEffect(pos, CONST_ME_POFF)
+        return false
+    else
+        for _, pid in ipairs(affectedList) do
+            doCreatureSetNoMove(pid, true)
+            doTeleportThing(pid, getClosestFreeTile(cid, islandPosition, true, false))
+            doSendMagicEffect(islandPosition, CONST_ME_HOLYDAMAGE)
+            doCreatureSetNoMove(pid, false)
+        end
+    end
+end
+
 function devovorgaQuest(cid, message, keywords, parameters, node) 
     if(not npcHandler:isFocused(cid)) then 
         return false 
@@ -53,7 +85,11 @@ function devovorgaQuest(cid, message, keywords, parameters, node)
             npcHandler:say('Before I start my ritual I need one last favor.', cid)
             npcHandler:say('I need that you enter in my old mansion and look for my magnificent tiara. Can you bring it to me?', cid)
         elseif (getPlayerStorageValue(cid, DEVOVORGA_QUEST) == 5) then
-            npcHandler:say('Did you retrieve my precious tiara?',cid)
+            npcHandler:say('Did you retrieve my magnificent tiara?',cid)        
+        elseif (getPlayerStorageValue(cid, DEVOVORGA_QUEST) == 6) then
+            npcHandler:say('...',cid)            
+            npcHandler:releaseFocus(cid)
+            npcHandler:resetNpc()
         end
         return true 
     elseif (parameters.confirm == true) then 
@@ -85,8 +121,18 @@ function devovorgaQuest(cid, message, keywords, parameters, node)
             doPlayerSetStorageValue(cid, DEVOVORGA_QUEST, 5)
 
         elseif (getPlayerStorageValue(cid, DEVOVORGA_QUEST) == 5) then
-            npcHandler:say('...')
-            --DoTeleportThing
+            if(getPlayerItemCount(cid,2139) > 0) then
+                if(isInParty(cid))then
+                    npcHandler:say('Oh... my magnificent tiara... You don\'t know what you have done!!!',cid)
+                    teleportParty(cid)
+                else
+                    npcHandler:say('I demand that all your party be here right NOW. Bring them, and then give me my tiara!!',cid)
+                    npcHandler:releaseFocus(cid)
+                end
+            else
+                npcHandler:say('Are you **** kidding me? You have none! GO AWAY AND COME BACK WHEN YOU HAVE IT!!!',cid)
+                npcHandler:releaseFocus(cid)
+            end
         end
 
         npcHandler:resetNpc() 

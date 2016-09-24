@@ -1,18 +1,18 @@
 function onKill(cid, target, lastHit)
-local t = {
-	["Demon"] = {s = 3000},
-	["Juggernaut"] = {s = 3001},
-	["Giant Spider"] = {s = 3002}
 
-}
-local name = getCreatureName(target)
-local v = t[name]
+	local name = string.lower(getCreatureName(target))
+	local v = TASKS_INFO[name]
 	if v then
-		if getCreatureName(target) then
+		if(getPlayerStorageValue(cid, v.s) == -1) then
+			setPlayerStorageValue(cid, v.s, 0)
+		end
+		if (getCreatureName(target) and getPlayerStorageValue(cid, v.s) ~= -2) then			
 			setPlayerStorageValue(cid, v.s, getPlayerStorageValue(cid, v.s)+1)
-			doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "You have killed a " .. getCreatureName(target) .. ".")
-			if getPlayerStorageValue(cid, v.s) >= 100 then
-				doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_RED, "You have killed the required number.")
+			local totalKilled = getPlayerStorageValue(cid, v.s)
+			doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "You have killed a " .. getCreatureName(target) .. ".("..totalKilled.."/"..v.count..")")
+			if getPlayerStorageValue(cid, v.s) >= v.count then
+				doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_RED, "You have killed " .. v.count .." !!!. Claim your reward.")
+				doSendMagicEffect(getCreaturePosition(cid), CONST_ME_FIREWORK_YELLOW)
 			end
 		end
 	end

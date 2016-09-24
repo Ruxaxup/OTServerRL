@@ -3,8 +3,8 @@ local npcHandler = NpcHandler:new(keywordHandler)
 
 NpcSystem.parseParameters(npcHandler) 
 
-local islandName = "Devo Island"
-local islandPosition = {x = 765, y = 962, z = 2}
+local islandName = "Debora's Mansion"
+local islandPosition = {x = 1584, y = 987, z = 10}
 
 function onCreatureAppear(cid)                npcHandler:onCreatureAppear(cid)             end 
 function onCreatureDisappear(cid)             npcHandler:onCreatureDisappear(cid)         end 

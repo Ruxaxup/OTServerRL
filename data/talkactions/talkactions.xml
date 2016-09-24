@@ -112,7 +112,7 @@ x	<talkaction words="/pvp" hide="yes" event="script" value="pvp.lua"/>
 	<talkaction words="!joinguild" event="function" value="guildJoin"/>
         <talkaction words="!addon" event="script" value="addon.lua"/>
 
-<!-- Bank -->
+	<!-- Bank -->
 	<talkaction log="yes" words="!balance" script="bank\balance.lua" />
 	<talkaction log="yes" words="!deposit" script="bank\deposit.lua" />
 	<talkaction log="yes" words="!withdraw" script="bank\withdraw.lua" />
@@ -131,5 +131,16 @@ x	<talkaction words="/pvp" hide="yes" event="script" value="pvp.lua"/>
     <talkaction words="!remvotes" event="script" value="PollSystem.lua"/>
     <talkaction words="!rempoll" event="script" value="PollSystem.lua"/>
     <talkaction words="!votepoll" event="script" value="PollSystem.lua"/>
+
+    <!-- Stats -->
+    <talkaction words="!stats" event="script" value="New Talkactions/StatPoints.lua"/>
+    <talkaction words="!addlifesteal;!als" event="script" value="New Talkactions/AddLifeSteal.lua"/>
+    <talkaction words="!addlifestealchance;!alsc" event="script" value="New Talkactions/AddLifeStealChance.lua"/>
+    <talkaction words="!addmanaleech;!aml" event="script" value="New Talkactions/AddManaLeech.lua"/>
+    <talkaction words="!addmanaleechchance;!amlc" event="script" value="New Talkactions/AddManaLeechChance.lua"/>
+    <talkaction words="/addstatpoint" event="script" value="New Talkactions/AddStatPoint.lua"/>
+    <talkaction words="/declifesteal" event="script" value="New Talkactions/DecLifeSteal.lua"/>
+    <talkaction log="yes" words="/clearstats" event="script" value="New Talkactions/ClearStats.lua"/>
+    <talkaction log="yes" words="/addStats" event="script" value="New Talkactions/AddStatPointsByCount.lua"/>
 
 </talkactions>
