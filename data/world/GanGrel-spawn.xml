@@ -53,7 +53,10 @@
 	<spawn centerx="2008" centery="995" centerz="1" radius="1">
 		<monster name="Giant Spider" x="1" y="0" z="1" spawntime="60" />
 	</spawn>
-	<spawn centerx="1599" centery="1020" centerz="1" radius="5" />
+	<spawn centerx="1599" centery="1020" centerz="1" radius="5">
+		<monster name="Medusa" x="-2" y="-1" z="1" spawntime="60" />
+		<monster name="Euryale" x="0" y="2" z="1" spawntime="60" />
+	</spawn>
 	<spawn centerx="1568" centery="1021" centerz="1" radius="1">
 		<monster name="Plaguethrower" x="1" y="0" z="1" spawntime="60" />
 	</spawn>
@@ -134,6 +137,13 @@
 		<monster name="Stone Golem" x="0" y="1" z="2" spawntime="60" />
 	</spawn>
 	<spawn centerx="2141" centery="974" centerz="2" radius="1" />
+	<spawn centerx="1585" centery="985" centerz="2" radius="5">
+		<monster name="Euryale" x="-3" y="-4" z="2" spawntime="60" />
+		<monster name="Euryale" x="3" y="-4" z="2" spawntime="60" />
+		<monster name="Stheno" x="0" y="-2" z="2" spawntime="60" />
+		<monster name="Euryale" x="-3" y="3" z="2" spawntime="60" />
+		<monster name="Euryale" x="3" y="3" z="2" spawntime="60" />
+	</spawn>
 	<spawn centerx="2021" centery="996" centerz="2" radius="1">
 		<monster name="Giant Spider" x="1" y="0" z="2" spawntime="60" />
 	</spawn>
@@ -150,21 +160,27 @@
 		<monster name="Tarantula" x="3" y="1" z="2" spawntime="60" />
 	</spawn>
 	<spawn centerx="1600" centery="1004" centerz="2" radius="11">
-		<monster name="Draken Warmaster" x="-7" y="-3" z="2" spawntime="60" />
-		<monster name="Draken Warmaster" x="4" y="-3" z="2" spawntime="60" />
-		<monster name="Draken Spellweaver" x="-2" y="-2" z="2" spawntime="60" />
-		<monster name="Draken Spellweaver" x="-1" y="-1" z="2" spawntime="60" />
-		<monster name="Lizard Zaogun" x="0" y="7" z="2" spawntime="60" />
-		<monster name="Draken Warmaster" x="0" y="8" z="2" spawntime="60" />
+		<monster name="Medusa" x="-2" y="-8" z="2" spawntime="60" />
+		<monster name="Euryale" x="-4" y="-7" z="2" spawntime="60" />
+		<monster name="Euryale" x="3" y="-6" z="2" spawntime="60" />
+		<monster name="Euryale" x="-1" y="-2" z="2" spawntime="60" />
+		<monster name="Medusa" x="-6" y="1" z="2" spawntime="60" />
+		<monster name="Euryale" x="1" y="3" z="2" spawntime="60" />
+		<monster name="Medusa" x="-4" y="10" z="2" spawntime="60" />
+		<monster name="Euryale" x="-1" y="10" z="2" spawntime="60" />
 	</spawn>
 	<spawn centerx="1573" centery="1005" centerz="2" radius="11">
-		<monster name="Draken Spellweaver" x="0" y="-9" z="2" spawntime="60" />
-		<monster name="Draken Warmaster" x="-5" y="-7" z="2" spawntime="60" />
-		<monster name="Draken Warmaster" x="3" y="-7" z="2" spawntime="60" />
-		<monster name="Draken Warmaster" x="-6" y="0" z="2" spawntime="60" />
-		<monster name="Draken Warmaster" x="3" y="1" z="2" spawntime="60" />
-		<monster name="Draken Spellweaver" x="2" y="2" z="2" spawntime="60" />
-		<monster name="Draken Warmaster" x="-5" y="11" z="2" spawntime="60" />
+		<monster name="Medusa" x="2" y="-9" z="2" spawntime="60" />
+		<monster name="Euryale" x="-4" y="-8" z="2" spawntime="60" />
+		<monster name="Euryale" x="5" y="-6" z="2" spawntime="60" />
+		<monster name="Euryale" x="-3" y="-4" z="2" spawntime="60" />
+		<monster name="Medusa" x="-7" y="-3" z="2" spawntime="60" />
+		<monster name="Euryale" x="0" y="-3" z="2" spawntime="60" />
+		<monster name="Medusa" x="-1" y="-1" z="2" spawntime="60" />
+		<monster name="Medusa" x="5" y="-1" z="2" spawntime="60" />
+		<monster name="Euryale" x="-6" y="1" z="2" spawntime="60" />
+		<monster name="Euryale" x="2" y="8" z="2" spawntime="60" />
+		<monster name="Medusa" x="-5" y="11" z="2" spawntime="60" />
 	</spawn>
 	<spawn centerx="2174" centery="1008" centerz="2" radius="1">
 		<monster name="Warlock" x="1" y="0" z="2" spawntime="60" />
@@ -173,19 +189,15 @@
 		<monster name="Warlock" x="1" y="0" z="2" spawntime="60" />
 	</spawn>
 	<spawn centerx="1572" centery="1016" centerz="2" radius="4">
-		<monster name="Draken Spellweaver" x="0" y="3" z="2" spawntime="60" />
-		<monster name="Lizard Zaogun" x="-1" y="4" z="2" spawntime="60" />
+		<monster name="Medusa" x="2" y="3" z="2" spawntime="60" />
 	</spawn>
 	<spawn centerx="1598" centery="1019" centerz="2" radius="11">
-		<monster name="Draken Spellweaver" x="1" y="-1" z="2" spawntime="60" />
-		<monster name="Draken Spellweaver" x="0" y="1" z="2" spawntime="60" />
-		<monster name="Draken Warmaster" x="-6" y="3" z="2" spawntime="60" />
-		<monster name="Lizard Zaogun" x="-1" y="3" z="2" spawntime="60" />
+		<monster name="Medusa" x="2" y="2" z="2" spawntime="60" />
+		<monster name="Euryale" x="-3" y="5" z="2" spawntime="60" />
 	</spawn>
 	<spawn centerx="1572" centery="1020" centerz="2" radius="11">
-		<monster name="Draken Warmaster" x="-6" y="2" z="2" spawntime="60" />
-		<monster name="Lizard Zaogun" x="0" y="2" z="2" spawntime="60" />
-		<monster name="Draken Warmaster" x="-1" y="5" z="2" spawntime="60" />
+		<monster name="Euryale" x="-6" y="3" z="2" spawntime="60" />
+		<monster name="Euryale" x="4" y="4" z="2" spawntime="60" />
 	</spawn>
 	<spawn centerx="1564" centery="1023" centerz="2" radius="1" />
 	<spawn centerx="2043" centery="1103" centerz="2" radius="1">
@@ -1151,20 +1163,16 @@
 		<monster name="Hero" x="1" y="0" z="3" spawntime="60" />
 	</spawn>
 	<spawn centerx="1587" centery="984" centerz="3" radius="11">
-		<monster name="Lizard Zaogun" x="-3" y="-5" z="3" spawntime="60" />
-		<monster name="Lizard Zaogun" x="-2" y="-5" z="3" spawntime="768" />
-		<monster name="Draken Abomination" x="-6" y="-4" z="3" spawntime="60" />
-		<monster name="Lizard Zaogun" x="3" y="-3" z="3" spawntime="60" />
-		<monster name="Draken Abomination" x="3" y="-1" z="3" spawntime="60" />
-		<monster name="Lizard Zaogun" x="-7" y="0" z="3" spawntime="60" />
-		<monster name="Lizard Zaogun" x="2" y="1" z="3" spawntime="60" />
-		<monster name="Draken Abomination" x="-7" y="2" z="3" spawntime="60" />
-		<monster name="Draken Spellweaver" x="-3" y="2" z="3" spawntime="60" />
-		<monster name="Draken Warmaster" x="-2" y="2" z="3" spawntime="60" />
-		<monster name="Lizard Zaogun" x="-5" y="3" z="3" spawntime="60" />
-		<monster name="Vampire Bride" x="3" y="3" z="3" spawntime="60" />
-		<monster name="Lizard Zaogun" x="-1" y="6" z="3" spawntime="60" />
-		<monster name="Draken Warmaster" x="0" y="6" z="3" spawntime="60" />
+		<monster name="Euryale" x="-4" y="-5" z="3" spawntime="60" />
+		<monster name="Undead Dragon" x="0" y="-5" z="3" spawntime="60" />
+		<monster name="Euryale" x="2" y="-4" z="3" spawntime="60" />
+		<monster name="Undead Dragon" x="-6" y="-3" z="3" spawntime="60" />
+		<monster name="Undead Dragon" x="3" y="-1" z="3" spawntime="60" />
+		<monster name="Euryale" x="-8" y="2" z="3" spawntime="60" />
+		<monster name="Undead Dragon" x="-5" y="3" z="3" spawntime="60" />
+		<monster name="Undead Dragon" x="1" y="6" z="3" spawntime="60" />
+		<monster name="Euryale" x="-1" y="7" z="3" spawntime="60" />
+		<monster name="Undead Dragon" x="-3" y="8" z="3" spawntime="60" />
 	</spawn>
 	<spawn centerx="1577" centery="987" centerz="3" radius="1" />
 	<spawn centerx="1589" centery="987" centerz="3" radius="1" />
@@ -1183,22 +1191,20 @@
 		<monster name="Infernalist" x="1" y="0" z="3" spawntime="60" />
 	</spawn>
 	<spawn centerx="1571" centery="1004" centerz="3" radius="11">
-		<monster name="Lizard Zaogun" x="1" y="-5" z="3" spawntime="60" />
-		<monster name="Draken Elite" x="4" y="-5" z="3" spawntime="60" />
-		<monster name="Draken Elite" x="-5" y="-3" z="3" spawntime="60" />
-		<monster name="Lizard Zaogun" x="-2" y="1" z="3" spawntime="60" />
-		<monster name="Lizard Zaogun" x="3" y="2" z="3" spawntime="60" />
-		<monster name="Draken Elite" x="3" y="3" z="3" spawntime="60" />
-		<monster name="Draken Warmaster" x="3" y="10" z="3" spawntime="60" />
+		<monster name="Euryale" x="2" y="-7" z="3" spawntime="60" />
+		<monster name="Euryale" x="-4" y="-3" z="3" spawntime="60" />
+		<monster name="Medusa" x="-1" y="-3" z="3" spawntime="60" />
+		<monster name="Euryale" x="-3" y="2" z="3" spawntime="60" />
+		<monster name="Medusa" x="2" y="3" z="3" spawntime="60" />
+		<monster name="Euryale" x="4" y="3" z="3" spawntime="60" />
 	</spawn>
 	<spawn centerx="1598" centery="1005" centerz="3" radius="11">
-		<monster name="Lizard Zaogun" x="1" y="-7" z="3" spawntime="60" />
-		<monster name="Lizard Zaogun" x="-4" y="-5" z="3" spawntime="60" />
-		<monster name="Draken Elite" x="0" y="-5" z="3" spawntime="60" />
-		<monster name="Draken Elite" x="5" y="-4" z="3" spawntime="60" />
-		<monster name="Lizard Zaogun" x="1" y="5" z="3" spawntime="60" />
-		<monster name="Draken Elite" x="1" y="6" z="3" spawntime="60" />
-		<monster name="Lizard Zaogun" x="2" y="8" z="3" spawntime="60" />
+		<monster name="Medusa" x="-1" y="-8" z="3" spawntime="60" />
+		<monster name="Euryale" x="1" y="-8" z="3" spawntime="60" />
+		<monster name="Euryale" x="-4" y="-3" z="3" spawntime="60" />
+		<monster name="Medusa" x="-6" y="-2" z="3" spawntime="60" />
+		<monster name="Euryale" x="2" y="5" z="3" spawntime="60" />
+		<monster name="Medusa" x="1" y="10" z="3" spawntime="60" />
 	</spawn>
 	<spawn centerx="2174" centery="1005" centerz="3" radius="1">
 		<monster name="Necromancer" x="1" y="0" z="3" spawntime="60" />
@@ -1222,18 +1228,21 @@
 		<monster name="Marid" x="1" y="0" z="3" spawntime="60" />
 	</spawn>
 	<spawn centerx="1598" centery="1018" centerz="3" radius="11">
-		<monster name="Draken Elite" x="-1" y="4" z="3" spawntime="60" />
-		<monster name="Lizard Zaogun" x="-1" y="6" z="3" spawntime="60" />
-		<monster name="Draken Elite" x="0" y="6" z="3" spawntime="60" />
+		<monster name="Euryale" x="2" y="0" z="3" spawntime="60" />
+		<monster name="Medusa" x="0" y="1" z="3" spawntime="60" />
+		<monster name="Euryale" x="0" y="5" z="3" spawntime="60" />
+		<monster name="Medusa" x="0" y="7" z="3" spawntime="60" />
 	</spawn>
 	<spawn centerx="2046" centery="1018" centerz="3" radius="1">
 		<monster name="Blue Djinn" x="1" y="0" z="3" spawntime="60" />
 	</spawn>
 	<spawn centerx="1573" centery="1019" centerz="3" radius="11">
-		<monster name="Lizard Zaogun" x="-5" y="-1" z="3" spawntime="60" />
-		<monster name="Lizard Zaogun" x="3" y="-1" z="3" spawntime="60" />
-		<monster name="Draken Warmaster" x="-6" y="4" z="3" spawntime="60" />
-		<monster name="Lizard Zaogun" x="2" y="5" z="3" spawntime="60" />
+		<monster name="Euryale" x="2" y="-3" z="3" spawntime="60" />
+		<monster name="Euryale" x="-3" y="-2" z="3" spawntime="60" />
+		<monster name="Medusa" x="-7" y="-1" z="3" spawntime="60" />
+		<monster name="Medusa" x="4" y="3" z="3" spawntime="60" />
+		<monster name="Euryale" x="-5" y="5" z="3" spawntime="60" />
+		<monster name="Euryale" x="2" y="6" z="3" spawntime="60" />
 	</spawn>
 	<spawn centerx="2057" centery="1025" centerz="3" radius="1">
 		<monster name="Blue Djinn" x="1" y="0" z="3" spawntime="60" />
@@ -1750,22 +1759,19 @@
 		<monster name="Fire Elemental" x="1" y="1" z="4" spawntime="60" />
 	</spawn>
 	<spawn centerx="1583" centery="992" centerz="4" radius="11">
-		<monster name="Lizard Zaogun" x="-4" y="-11" z="4" spawntime="60" />
-		<monster name="Draken Abomination" x="2" y="-11" z="4" spawntime="60" />
-		<monster name="Draken Spellweaver" x="-5" y="-10" z="4" spawntime="60" />
-		<monster name="Draken Elite" x="7" y="-10" z="4" spawntime="60" />
-		<monster name="Draken Spellweaver" x="0" y="-7" z="4" spawntime="60" />
-		<monster name="Draken Abomination" x="1" y="-7" z="4" spawntime="60" />
-		<monster name="Lizard Zaogun" x="-2" y="-5" z="4" spawntime="60" />
-		<monster name="Draken Spellweaver" x="8" y="-5" z="4" spawntime="60" />
-		<monster name="Lizard Zaogun" x="6" y="-4" z="4" spawntime="60" />
-		<monster name="Draken Abomination" x="2" y="-2" z="4" spawntime="60" />
-		<monster name="Lizard Legionnaire" x="5" y="4" z="4" spawntime="60" />
-		<monster name="Lizard Legionnaire" x="2" y="6" z="4" spawntime="60" />
-		<monster name="Draken Spellweaver" x="-11" y="7" z="4" spawntime="60" />
-		<monster name="Draken Warmaster" x="-11" y="8" z="4" spawntime="60" />
-		<monster name="Draken Warmaster" x="-5" y="10" z="4" spawntime="60" />
-		<monster name="Lizard Legionnaire" x="0" y="11" z="4" spawntime="60" />
+		<monster name="Demon" x="-2" y="-11" z="4" spawntime="60" />
+		<monster name="Euryale" x="2" y="-11" z="4" spawntime="60" />
+		<monster name="Demon" x="7" y="-10" z="4" spawntime="60" />
+		<monster name="Euryale" x="-4" y="-7" z="4" spawntime="60" />
+		<monster name="Euryale" x="8" y="-7" z="4" spawntime="60" />
+		<monster name="Demon" x="-3" y="-4" z="4" spawntime="60" />
+		<monster name="Demon" x="4" y="-3" z="4" spawntime="60" />
+		<monster name="Euryale" x="2" y="-1" z="4" spawntime="60" />
+		<monster name="Serpent Spawn" x="11" y="0" z="4" spawntime="60" />
+		<monster name="Serpent Spawn" x="-6" y="1" z="4" spawntime="60" />
+		<monster name="Euryale" x="0" y="5" z="4" spawntime="60" />
+		<monster name="Serpent Spawn" x="-11" y="7" z="4" spawntime="60" />
+		<monster name="Serpent Spawn" x="1" y="10" z="4" spawntime="60" />
 	</spawn>
 	<spawn centerx="2132" centery="992" centerz="4" radius="1" />
 	<spawn centerx="2127" centery="995" centerz="4" radius="1">
@@ -1773,19 +1779,19 @@
 		<monster name="Infernalist" x="0" y="1" z="4" spawntime="60" />
 	</spawn>
 	<spawn centerx="1579" centery="996" centerz="4" radius="11">
-		<monster name="Lizard Legionnaire" x="8" y="9" z="4" spawntime="60" />
-		<monster name="Draken Warmaster" x="-10" y="10" z="4" spawntime="60" />
-		<monster name="Draken Spellweaver" x="-9" y="10" z="4" spawntime="60" />
+		<monster name="Euryale" x="-11" y="3" z="4" spawntime="60" />
+		<monster name="Euryale" x="9" y="8" z="4" spawntime="60" />
+		<monster name="Serpent Spawn" x="-6" y="10" z="4" spawntime="60" />
 	</spawn>
 	<spawn centerx="2022" centery="996" centerz="4" radius="5">
 		<monster name="Giant Spider" x="-2" y="1" z="4" spawntime="60" />
 	</spawn>
 	<spawn centerx="2126" centery="996" centerz="4" radius="1" />
 	<spawn centerx="1591" centery="998" centerz="4" radius="11">
-		<monster name="Draken Spellweaver" x="8" y="0" z="4" spawntime="60" />
-		<monster name="Lizard Zaogun" x="9" y="1" z="4" spawntime="60" />
-		<monster name="Lizard Zaogun" x="5" y="6" z="4" spawntime="60" />
-		<monster name="Draken Spellweaver" x="7" y="6" z="4" spawntime="60" />
+		<monster name="Serpent Spawn" x="9" y="-1" z="4" spawntime="60" />
+		<monster name="Euryale" x="8" y="2" z="4" spawntime="60" />
+		<monster name="Serpent Spawn" x="8" y="7" z="4" spawntime="60" />
+		<monster name="Euryale" x="6" y="10" z="4" spawntime="60" />
 	</spawn>
 	<spawn centerx="733" centery="999" centerz="4" radius="2">
 		<monster name="Hellfire Fighter" x="0" y="-1" z="4" spawntime="60" />
@@ -1855,28 +1861,26 @@
 		<monster name="Green Djinn" x="1" y="1" z="4" spawntime="60" />
 	</spawn>
 	<spawn centerx="1574" centery="1017" centerz="4" radius="11">
-		<monster name="Draken Spellweaver" x="-1" y="-9" z="4" spawntime="60" />
-		<monster name="Draken Warmaster" x="1" y="-8" z="4" spawntime="60" />
-		<monster name="Lizard Legionnaire" x="10" y="-5" z="4" spawntime="60" />
-		<monster name="Draken Warmaster" x="-4" y="-2" z="4" spawntime="60" />
-		<monster name="Draken Spellweaver" x="-4" y="2" z="4" spawntime="60" />
-		<monster name="Draken Warmaster" x="2" y="2" z="4" spawntime="60" />
-		<monster name="Lizard Legionnaire" x="11" y="2" z="4" spawntime="60" />
-		<monster name="Draken Warmaster" x="-2" y="8" z="4" spawntime="60" />
+		<monster name="Euryale" x="1" y="-8" z="4" spawntime="60" />
+		<monster name="Euryale" x="8" y="-7" z="4" spawntime="60" />
+		<monster name="Serpent Spawn" x="7" y="-4" z="4" spawntime="60" />
+		<monster name="Serpent Spawn" x="-6" y="2" z="4" spawntime="60" />
+		<monster name="Serpent Spawn" x="2" y="3" z="4" spawntime="60" />
+		<monster name="Euryale" x="11" y="5" z="4" spawntime="60" />
+		<monster name="Euryale" x="2" y="6" z="4" spawntime="60" />
+		<monster name="Euryale" x="-4" y="8" z="4" spawntime="60" />
 	</spawn>
 	<spawn centerx="2113" centery="1017" centerz="4" radius="1" />
 	<spawn centerx="2110" centery="1018" centerz="4" radius="1">
 		<monster name="Green Djinn" x="1" y="0" z="4" spawntime="60" />
 	</spawn>
 	<spawn centerx="1594" centery="1019" centerz="4" radius="11">
-		<monster name="Lizard Zaogun" x="5" y="-9" z="4" spawntime="60" />
-		<monster name="Lizard Zaogun" x="5" y="-7" z="4" spawntime="60" />
-		<monster name="Lizard Legionnaire" x="-6" y="-4" z="4" spawntime="60" />
-		<monster name="Draken Spellweaver" x="4" y="0" z="4" spawntime="60" />
-		<monster name="Lizard Zaogun" x="2" y="2" z="4" spawntime="60" />
-		<monster name="Lizard Zaogun" x="4" y="4" z="4" spawntime="60" />
-		<monster name="Lizard Legionnaire" x="-7" y="5" z="4" spawntime="60" />
-		<monster name="Draken Spellweaver" x="5" y="7" z="4" spawntime="60" />
+		<monster name="Serpent Spawn" x="-4" y="-9" z="4" spawntime="60" />
+		<monster name="Euryale" x="-6" y="-4" z="4" spawntime="60" />
+		<monster name="Serpent Spawn" x="4" y="-3" z="4" spawntime="60" />
+		<monster name="Euryale" x="3" y="0" z="4" spawntime="60" />
+		<monster name="Serpent Spawn" x="-8" y="5" z="4" spawntime="60" />
+		<monster name="Euryale" x="5" y="6" z="4" spawntime="60" />
 	</spawn>
 	<spawn centerx="1915" centery="1019" centerz="4" radius="1">
 		<monster name="Mutated Rat" x="1" y="0" z="4" spawntime="60" />
@@ -2975,16 +2979,14 @@
 		<monster name="Tarantula" x="1" y="0" z="5" spawntime="60" />
 	</spawn>
 	<spawn centerx="1586" centery="988" centerz="5" radius="11">
-		<monster name="Draken Abomination" x="-2" y="-1" z="5" spawntime="60" />
-		<monster name="Draken Abomination" x="-4" y="0" z="5" spawntime="60" />
-		<monster name="Draken Abomination" x="-8" y="2" z="5" spawntime="60" />
-		<monster name="Lizard Zaogun" x="-9" y="6" z="5" spawntime="60" />
-		<monster name="Lizard Zaogun" x="-3" y="7" z="5" spawntime="60" />
-		<monster name="Lizard Zaogun" x="6" y="7" z="5" spawntime="60" />
-		<monster name="Lizard Zaogun" x="9" y="7" z="5" spawntime="60" />
-		<monster name="Lizard Zaogun" x="10" y="7" z="5" spawntime="60" />
-		<monster name="Lizard Zaogun" x="0" y="8" z="5" spawntime="60" />
-		<monster name="Vampire" x="5" y="10" z="5" spawntime="60" />
+		<monster name="Euryale" x="-1" y="-2" z="5" spawntime="60" />
+		<monster name="Hellhound" x="-6" y="0" z="5" spawntime="60" />
+		<monster name="Euryale" x="-11" y="1" z="5" spawntime="60" />
+		<monster name="Euryale" x="5" y="2" z="5" spawntime="60" />
+		<monster name="Hellhound" x="-1" y="3" z="5" spawntime="60" />
+		<monster name="Hellhound" x="9" y="3" z="5" spawntime="60" />
+		<monster name="Euryale" x="-7" y="6" z="5" spawntime="60" />
+		<monster name="Euryale" x="7" y="7" z="5" spawntime="60" />
 	</spawn>
 	<spawn centerx="2159" centery="988" centerz="5" radius="1">
 		<monster name="dark magician" x="1" y="0" z="5" spawntime="60" />
@@ -3087,13 +3089,13 @@
 		<monster name="Training Monk" x="1" y="0" z="5" spawntime="60" />
 	</spawn>
 	<spawn centerx="1579" centery="1004" centerz="5" radius="11">
-		<monster name="Lizard Zaogun" x="-5" y="-10" z="5" spawntime="60" />
-		<monster name="Lizard Zaogun" x="-7" y="0" z="5" spawntime="60" />
-		<monster name="Lizard Zaogun" x="2" y="0" z="5" spawntime="60" />
-		<monster name="Lizard Zaogun" x="11" y="0" z="5" spawntime="60" />
-		<monster name="Draken Warmaster" x="8" y="3" z="5" spawntime="60" />
-		<monster name="Draken Warmaster" x="-5" y="4" z="5" spawntime="60" />
-		<monster name="Draken Warmaster" x="4" y="4" z="5" spawntime="60" />
+		<monster name="Hellhound" x="-6" y="-10" z="5" spawntime="60" />
+		<monster name="Euryale" x="-6" y="-1" z="5" spawntime="60" />
+		<monster name="Serpent Spawn" x="0" y="1" z="5" spawntime="60" />
+		<monster name="Euryale" x="3" y="1" z="5" spawntime="60" />
+		<monster name="Euryale" x="8" y="2" z="5" spawntime="60" />
+		<monster name="Euryale" x="-4" y="8" z="5" spawntime="60" />
+		<monster name="Serpent Spawn" x="-6" y="9" z="5" spawntime="60" />
 	</spawn>
 	<spawn centerx="1647" centery="1004" centerz="5" radius="8">
 		<monster name="Demon" x="-1" y="-4" z="5" spawntime="60" />
@@ -3111,8 +3113,11 @@
 		<monster name="Training Monk" x="0" y="-1" z="5" spawntime="60" />
 	</spawn>
 	<spawn centerx="1595" centery="1005" centerz="5" radius="11">
-		<monster name="Lizard Zaogun" x="4" y="-1" z="5" spawntime="60" />
-		<monster name="Draken Warmaster" x="2" y="3" z="5" spawntime="60" />
+		<monster name="Euryale" x="-3" y="-5" z="5" spawntime="60" />
+		<monster name="Serpent Spawn" x="-3" y="-1" z="5" spawntime="60" />
+		<monster name="Euryale" x="4" y="-1" z="5" spawntime="60" />
+		<monster name="Euryale" x="1" y="7" z="5" spawntime="60" />
+		<monster name="Serpent Spawn" x="1" y="10" z="5" spawntime="60" />
 	</spawn>
 	<spawn centerx="1731" centery="1005" centerz="5" radius="8">
 		<monster name="Spirit of Fire" x="-3" y="-2" z="5" spawntime="60" />
@@ -3200,17 +3205,14 @@
 		<monster name="Mutated Rat" x="1" y="0" z="5" spawntime="60" />
 	</spawn>
 	<spawn centerx="1576" centery="1020" centerz="5" radius="11">
-		<monster name="Draken Warmaster" x="2" y="-3" z="5" spawntime="60" />
-		<monster name="Draken Warmaster" x="10" y="-3" z="5" spawntime="60" />
-		<monster name="Lizard Zaogun" x="-2" y="3" z="5" spawntime="60" />
-		<monster name="Lizard Zaogun" x="5" y="3" z="5" spawntime="60" />
-		<monster name="Draken Warmaster" x="4" y="4" z="5" spawntime="60" />
+		<monster name="Euryale" x="11" y="-2" z="5" spawntime="60" />
+		<monster name="Euryale" x="3" y="0" z="5" spawntime="60" />
+		<monster name="Serpent Spawn" x="-2" y="1" z="5" spawntime="60" />
+		<monster name="Euryale" x="8" y="4" z="5" spawntime="60" />
 	</spawn>
 	<spawn centerx="1594" centery="1022" centerz="5" radius="11">
-		<monster name="Draken Warmaster" x="4" y="-4" z="5" spawntime="60" />
-		<monster name="Lizard Zaogun" x="-4" y="2" z="5" spawntime="60" />
-		<monster name="Lizard Zaogun" x="4" y="2" z="5" spawntime="60" />
-		<monster name="Draken Warmaster" x="5" y="5" z="5" spawntime="60" />
+		<monster name="Serpent Spawn" x="3" y="1" z="5" spawntime="60" />
+		<monster name="Euryale" x="4" y="5" z="5" spawntime="60" />
 	</spawn>
 	<spawn centerx="2121" centery="1022" centerz="5" radius="1">
 		<monster name="Efreet" x="1" y="0" z="5" spawntime="60" />
@@ -5096,11 +5098,8 @@
 		<monster name="Mad Scientist" x="1" y="0" z="6" spawntime="60" />
 	</spawn>
 	<spawn centerx="1583" centery="990" centerz="6" radius="5">
-		<monster name="Lizard Dragon Priest" x="2" y="-2" z="6" spawntime="60" />
-		<monster name="Lizard High Guard" x="1" y="1" z="6" spawntime="60" />
-		<monster name="Lizard Dragon Priest" x="-2" y="2" z="6" spawntime="60" />
-		<monster name="Lizard Zaogun" x="2" y="3" z="6" spawntime="60" />
-		<monster name="Lizard High Guard" x="-4" y="5" z="6" spawntime="60" />
+		<monster name="Euryale" x="2" y="-3" z="6" spawntime="60" />
+		<monster name="Euryale" x="-3" y="1" z="6" spawntime="60" />
 	</spawn>
 	<spawn centerx="1194" centery="991" centerz="6" radius="5">
 		<monster name="Wyvern" x="-1" y="-1" z="6" spawntime="60" />
@@ -5115,10 +5114,9 @@
 		<monster name="Mad Scientist" x="1" y="0" z="6" spawntime="60" />
 	</spawn>
 	<spawn centerx="1592" centery="992" centerz="6" radius="5">
-		<monster name="Lizard High Guard" x="3" y="-2" z="6" spawntime="60" />
-		<monster name="Lizard Dragon Priest" x="4" y="0" z="6" spawntime="60" />
-		<monster name="Lizard Dragon Priest" x="-1" y="1" z="6" spawntime="60" />
-		<monster name="Lizard High Guard" x="0" y="2" z="6" spawntime="60" />
+		<monster name="Euryale" x="-2" y="-2" z="6" spawntime="60" />
+		<monster name="Euryale" x="2" y="2" z="6" spawntime="60" />
+		<monster name="Euryale" x="-5" y="4" z="6" spawntime="60" />
 	</spawn>
 	<spawn centerx="2164" centery="992" centerz="6" radius="1">
 		<monster name="Mad Scientist" x="1" y="0" z="6" spawntime="60" />
@@ -5128,13 +5126,13 @@
 		<monster name="Wyvern" x="-1" y="-1" z="6" spawntime="60" />
 		<monster name="Wyvern" x="4" y="2" z="6" spawntime="60" />
 	</spawn>
+	<spawn centerx="1576" centery="995" centerz="6" radius="5">
+		<monster name="Hellhound" x="0" y="-1" z="6" spawntime="60" />
+		<monster name="Euryale" x="-3" y="3" z="6" spawntime="60" />
+		<monster name="Euryale" x="3" y="5" z="6" spawntime="60" />
+	</spawn>
 	<spawn centerx="2156" centery="995" centerz="6" radius="1">
 		<monster name="Mad Scientist" x="1" y="0" z="6" spawntime="60" />
-	</spawn>
-	<spawn centerx="1578" centery="996" centerz="6" radius="5">
-		<monster name="Lizard Dragon Priest" x="-3" y="-3" z="6" spawntime="60" />
-		<monster name="Lizard Zaogun" x="-4" y="2" z="6" spawntime="60" />
-		<monster name="Lizard Zaogun" x="2" y="3" z="6" spawntime="60" />
 	</spawn>
 	<spawn centerx="2126" centery="996" centerz="6" radius="1">
 		<monster name="dark apprentice" x="1" y="0" z="6" spawntime="60" />
@@ -5155,7 +5153,9 @@
 		<monster name="Wyvern" x="-2" y="-3" z="6" spawntime="60" />
 		<monster name="Wyvern" x="3" y="-1" z="6" spawntime="60" />
 	</spawn>
-	<spawn centerx="1588" centery="1001" centerz="6" radius="1" />
+	<spawn centerx="1588" centery="1001" centerz="6" radius="1">
+		<monster name="Euryale" x="1" y="0" z="6" spawntime="60" />
+	</spawn>
 	<spawn centerx="1923" centery="1001" centerz="6" radius="1" />
 	<spawn centerx="2159" centery="1001" centerz="6" radius="1">
 		<monster name="Mad Scientist" x="1" y="0" z="6" spawntime="60" />
@@ -5163,19 +5163,11 @@
 	<spawn centerx="2164" centery="1001" centerz="6" radius="1">
 		<monster name="dark apprentice" x="1" y="0" z="6" spawntime="60" />
 	</spawn>
-	<spawn centerx="1586" centery="1003" centerz="6" radius="5">
-		<monster name="Lizard High Guard" x="-2" y="-5" z="6" spawntime="60" />
-		<monster name="Lizard Zaogun" x="5" y="-3" z="6" spawntime="60" />
-		<monster name="Lizard Zaogun" x="-1" y="-1" z="6" spawntime="60" />
-		<monster name="Lizard High Guard" x="-2" y="4" z="6" spawntime="60" />
-		<monster name="Lizard Zaogun" x="4" y="4" z="6" spawntime="60" />
-	</spawn>
 	<spawn centerx="1588" centery="1003" centerz="6" radius="1" />
 	<spawn centerx="1593" centery="1003" centerz="6" radius="5">
-		<monster name="Lizard Zaogun" x="3" y="-3" z="6" spawntime="60" />
-		<monster name="Lizard High Guard" x="-1" y="-2" z="6" spawntime="60" />
-		<monster name="Lizard Zaogun" x="3" y="4" z="6" spawntime="60" />
-		<monster name="Lizard High Guard" x="3" y="5" z="6" spawntime="60" />
+		<monster name="Euryale" x="4" y="-2" z="6" spawntime="60" />
+		<monster name="Euryale" x="-2" y="3" z="6" spawntime="60" />
+		<monster name="Euryale" x="4" y="3" z="6" spawntime="60" />
 	</spawn>
 	<spawn centerx="1069" centery="1004" centerz="6" radius="1">
 		<monster name="Training Monk" x="-1" y="0" z="6" spawntime="60" />
@@ -5206,9 +5198,11 @@
 		<monster name="Training Monk" x="0" y="-1" z="6" spawntime="60" />
 	</spawn>
 	<spawn centerx="1576" centery="1005" centerz="6" radius="5">
-		<monster name="Lizard High Guard" x="-1" y="-3" z="6" spawntime="60" />
-		<monster name="Lizard Zaogun" x="-3" y="0" z="6" spawntime="60" />
-		<monster name="Lizard High Guard" x="1" y="4" z="6" spawntime="60" />
+		<monster name="Euryale" x="-3" y="-1" z="6" spawntime="60" />
+		<monster name="Euryale" x="-3" y="5" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1583" centery="1006" centerz="6" radius="5">
+		<monster name="Euryale" x="2" y="-1" z="6" spawntime="60" />
 	</spawn>
 	<spawn centerx="1926" centery="1006" centerz="6" radius="1">
 		<monster name="Mutated Human" x="1" y="0" z="6" spawntime="60" />
@@ -5267,10 +5261,8 @@
 	</spawn>
 	<spawn centerx="2113" centery="1010" centerz="6" radius="1" />
 	<spawn centerx="1579" centery="1011" centerz="6" radius="5">
-		<monster name="Lizard High Guard" x="-3" y="0" z="6" spawntime="60" />
-		<monster name="Lizard Zaogun" x="-1" y="0" z="6" spawntime="60" />
-		<monster name="Lizard High Guard" x="5" y="2" z="6" spawntime="60" />
-		<monster name="Lizard Zaogun" x="-1" y="4" z="6" spawntime="60" />
+		<monster name="Euryale" x="5" y="2" z="6" spawntime="60" />
+		<monster name="Euryale" x="-1" y="4" z="6" spawntime="60" />
 	</spawn>
 	<spawn centerx="1914" centery="1011" centerz="6" radius="1">
 		<monster name="Acid Blob" x="1" y="0" z="6" spawntime="60" />
@@ -5294,12 +5286,7 @@
 	<spawn centerx="748" centery="1014" centerz="6" radius="2">
 		<monster name="Massive Energy Elemental" x="1" y="0" z="6" spawntime="60" />
 	</spawn>
-	<spawn centerx="1589" centery="1014" centerz="6" radius="5">
-		<monster name="Lizard Zaogun" x="-4" y="-3" z="6" spawntime="60" />
-		<monster name="Lizard Zaogun" x="-4" y="3" z="6" spawntime="60" />
-		<monster name="Lizard High Guard" x="4" y="3" z="6" spawntime="60" />
-		<monster name="Lizard Zaogun" x="0" y="5" z="6" spawntime="60" />
-	</spawn>
+	<spawn centerx="1589" centery="1014" centerz="6" radius="5" />
 	<spawn centerx="1925" centery="1014" centerz="6" radius="1">
 		<monster name="Acid Blob" x="1" y="0" z="6" spawntime="60" />
 	</spawn>
@@ -5402,13 +5389,6 @@
 		<monster name="Acid Blob" x="1" y="0" z="6" spawntime="60" />
 		<monster name="Mutated Human" x="1" y="1" z="6" spawntime="60" />
 	</spawn>
-	<spawn centerx="1578" centery="1021" centerz="6" radius="5">
-		<monster name="Lizard Zaogun" x="-5" y="-4" z="6" spawntime="60" />
-		<monster name="Lizard High Guard" x="-5" y="0" z="6" spawntime="60" />
-		<monster name="Lizard High Guard" x="-1" y="2" z="6" spawntime="60" />
-		<monster name="Lizard Zaogun" x="-5" y="3" z="6" spawntime="60" />
-		<monster name="Lizard Zaogun" x="1" y="3" z="6" spawntime="60" />
-	</spawn>
 	<spawn centerx="1925" centery="1021" centerz="6" radius="1">
 		<monster name="Mutated Human" x="1" y="0" z="6" spawntime="60" />
 	</spawn>
@@ -5422,9 +5402,12 @@
 	<spawn centerx="2120" centery="1021" centerz="6" radius="1">
 		<monster name="Green Djinn" x="1" y="0" z="6" spawntime="60" />
 	</spawn>
-	<spawn centerx="1586" centery="1022" centerz="6" radius="5">
-		<monster name="Lizard High Guard" x="-2" y="0" z="6" spawntime="60" />
-		<monster name="Lizard Zaogun" x="-2" y="2" z="6" spawntime="60" />
+	<spawn centerx="1578" centery="1022" centerz="6" radius="5">
+		<monster name="Euryale" x="5" y="0" z="6" spawntime="60" />
+		<monster name="Euryale" x="-1" y="3" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1585" centery="1022" centerz="6" radius="5">
+		<monster name="Euryale" x="4" y="-2" z="6" spawntime="60" />
 	</spawn>
 	<spawn centerx="2116" centery="1022" centerz="6" radius="1">
 		<monster name="Green Djinn" x="1" y="0" z="6" spawntime="60" />
@@ -5436,9 +5419,8 @@
 		<monster name="Hand of Cursed Fate" x="1" y="0" z="6" spawntime="120" />
 	</spawn>
 	<spawn centerx="1596" centery="1023" centerz="6" radius="5">
-		<monster name="Lizard Zaogun" x="2" y="-5" z="6" spawntime="60" />
-		<monster name="Lizard High Guard" x="1" y="-2" z="6" spawntime="60" />
-		<monster name="Lizard Zaogun" x="-4" y="1" z="6" spawntime="60" />
+		<monster name="Euryale" x="2" y="-2" z="6" spawntime="60" />
+		<monster name="Euryale" x="1" y="3" z="6" spawntime="60" />
 	</spawn>
 	<spawn centerx="2065" centery="1023" centerz="6" radius="1">
 		<monster name="Blue Djinn" x="1" y="0" z="6" spawntime="60" />
@@ -5447,7 +5429,9 @@
 		<monster name="Massive Energy Elemental" x="-1" y="1" z="6" spawntime="60" />
 		<monster name="War Golem" x="1" y="1" z="6" spawntime="60" />
 	</spawn>
-	<spawn centerx="1567" centery="1024" centerz="6" radius="5" />
+	<spawn centerx="1567" centery="1024" centerz="6" radius="5">
+		<monster name="Euryale" x="5" y="-4" z="6" spawntime="60" />
+	</spawn>
 	<spawn centerx="1938" centery="1024" centerz="6" radius="1">
 		<monster name="Acid Blob" x="1" y="0" z="6" spawntime="60" />
 		<monster name="Acid Blob" x="0" y="1" z="6" spawntime="60" />
@@ -5533,7 +5517,6 @@
 		<monster name="Wyvern" x="-1" y="0" z="6" spawntime="20" />
 	</spawn>
 	<spawn centerx="1594" centery="1033" centerz="6" radius="5">
-		<monster name="Lizard Zaogun" x="4" y="-4" z="6" spawntime="60" />
 		<monster name="Lizard High Guard" x="0" y="-3" z="6" spawntime="60" />
 		<monster name="Lizard Zaogun" x="2" y="-1" z="6" spawntime="60" />
 		<monster name="Lizard Dragon Priest" x="-5" y="1" z="6" spawntime="60" />
@@ -8469,7 +8452,7 @@
 	<spawn centerx="2151" centery="1937" centerz="6" radius="1">
 		<monster name="Frost Dragon" x="0" y="0" z="6" spawntime="60" />
 	</spawn>
-	<spawn centerx="1051" centery="695" centerz="7" radius="5" />
+	<spawn centerx="1077" centery="690" centerz="7" radius="5" />
 	<spawn centerx="1218" centery="783" centerz="7" radius="5">
 		<monster name="Undead Gladiator" x="-1" y="-4" z="7" spawntime="60" />
 		<monster name="Undead Gladiator" x="-4" y="1" z="7" spawntime="60" />
@@ -8956,6 +8939,10 @@
 		<monster name="Gozzler" x="-1" y="1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2060" centery="945" centerz="7" radius="1" />
+	<spawn centerx="958" centery="946" centerz="7" radius="9">
+		<monster name="Hellspawn" x="0" y="6" z="7" spawntime="60" />
+		<monster name="Hellspawn" x="1" y="7" z="7" spawntime="60" />
+	</spawn>
 	<spawn centerx="2002" centery="946" centerz="7" radius="1">
 		<monster name="Ghoul" x="1" y="0" z="7" spawntime="60" />
 		<monster name="Ghoul" x="1" y="1" z="7" spawntime="60" />
@@ -9333,7 +9320,9 @@
 	<spawn centerx="2080" centery="990" centerz="7" radius="1">
 		<monster name="Novice Of The Cult" x="1" y="0" z="7" spawntime="60" />
 	</spawn>
-	<spawn centerx="1568" centery="991" centerz="7" radius="1" />
+	<spawn centerx="1568" centery="991" centerz="7" radius="1">
+		<monster name="Hellhound" x="1" y="1" z="7" spawntime="60" />
+	</spawn>
 	<spawn centerx="1970" centery="991" centerz="7" radius="1">
 		<monster name="Zombie" x="1" y="0" z="7" spawntime="60" />
 	</spawn>
@@ -9379,7 +9368,9 @@
 		<monster name="Chicken" x="1" y="0" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="1579" centery="995" centerz="7" radius="1" />
-	<spawn centerx="1600" centery="995" centerz="7" radius="4" />
+	<spawn centerx="1600" centery="995" centerz="7" radius="4">
+		<monster name="Dark Torturer" x="-3" y="1" z="7" spawntime="60" />
+	</spawn>
 	<spawn centerx="1975" centery="995" centerz="7" radius="1">
 		<monster name="Zombie" x="1" y="0" z="7" spawntime="60" />
 	</spawn>
@@ -9412,17 +9403,17 @@
 		<monster name="Nightmare" x="1" y="0" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="1589" centery="998" centerz="7" radius="11">
-		<monster name="Draken Elite" x="-5" y="-3" z="7" spawntime="60" />
-		<monster name="Draken Elite" x="6" y="-3" z="7" spawntime="60" />
-		<monster name="Draken Elite" x="5" y="-1" z="7" spawntime="60" />
-		<monster name="Draken Abomination" x="-4" y="1" z="7" spawntime="60" />
-		<monster name="Draken Abomination" x="1" y="5" z="7" spawntime="60" />
-		<monster name="Draken Elite" x="-6" y="7" z="7" spawntime="60" />
-		<monster name="Draken Elite" x="-5" y="7" z="7" spawntime="768" />
-		<monster name="Draken Abomination" x="-4" y="7" z="7" spawntime="60" />
-		<monster name="Draken Elite" x="2" y="7" z="7" spawntime="60" />
-		<monster name="Draken Abomination" x="6" y="9" z="7" spawntime="60" />
-		<monster name="Draken Elite" x="-11" y="10" z="7" spawntime="60" />
+		<monster name="Dark Torturer" x="-7" y="-3" z="7" spawntime="60" />
+		<monster name="Hellhound" x="-5" y="-2" z="7" spawntime="60" />
+		<monster name="Hellhound" x="5" y="-2" z="7" spawntime="60" />
+		<monster name="Dark Torturer" x="-4" y="1" z="7" spawntime="60" />
+		<monster name="Dark Torturer" x="2" y="5" z="7" spawntime="60" />
+		<monster name="Defiler" x="-3" y="6" z="7" spawntime="60" />
+		<monster name="Defiler" x="-6" y="7" z="7" spawntime="60" />
+		<monster name="Hellhound" x="8" y="8" z="7" spawntime="60" />
+		<monster name="Defiler" x="-7" y="9" z="7" spawntime="60" />
+		<monster name="Defiler" x="-2" y="9" z="7" spawntime="60" />
+		<monster name="Defiler" x="-5" y="11" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2082" centery="998" centerz="7" radius="1">
 		<monster name="Novice Of The Cult" x="1" y="0" z="7" spawntime="60" />
@@ -9432,10 +9423,10 @@
 		<monster name="Hellspawn" x="0" y="4" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="1578" centery="999" centerz="7" radius="11">
-		<monster name="Draken Elite" x="-5" y="-4" z="7" spawntime="60" />
-		<monster name="Draken Abomination" x="-2" y="-2" z="7" spawntime="60" />
-		<monster name="Draken Elite" x="-2" y="3" z="7" spawntime="60" />
-		<monster name="Draken Abomination" x="-5" y="4" z="7" spawntime="60" />
+		<monster name="Hellhound" x="-2" y="-3" z="7" spawntime="60" />
+		<monster name="Dark Torturer" x="-5" y="4" z="7" spawntime="60" />
+		<monster name="Euryale" x="-1" y="9" z="7" spawntime="60" />
+		<monster name="Euryale" x="-5" y="10" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="1888" centery="999" centerz="7" radius="1">
 		<monster name="Death Blob" x="1" y="0" z="7" spawntime="60" />
@@ -9554,11 +9545,11 @@
 	</spawn>
 	<spawn centerx="1558" centery="1009" centerz="7" radius="1" />
 	<spawn centerx="1586" centery="1009" centerz="7" radius="11">
-		<monster name="Draken Elite" x="-6" y="2" z="7" spawntime="60" />
-		<monster name="Draken Elite" x="0" y="4" z="7" spawntime="60" />
-		<monster name="Draken Abomination" x="0" y="5" z="7" spawntime="60" />
-		<monster name="Draken Elite" x="8" y="5" z="7" spawntime="60" />
-		<monster name="Draken Elite" x="-11" y="7" z="7" spawntime="60" />
+		<monster name="Dark Torturer" x="9" y="2" z="7" spawntime="60" />
+		<monster name="Dark Torturer" x="0" y="4" z="7" spawntime="60" />
+		<monster name="Hellhound" x="6" y="7" z="7" spawntime="60" />
+		<monster name="Hellhound" x="-9" y="8" z="7" spawntime="60" />
+		<monster name="Dark Torturer" x="10" y="9" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="1870" centery="1009" centerz="7" radius="1">
 		<monster name="Mutated Tiger" x="1" y="0" z="7" spawntime="60" />
@@ -9612,7 +9603,9 @@
 	<spawn centerx="1029" centery="1011" centerz="7" radius="2">
 		<npc name="Rashid" x="0" y="1" z="7" spawntime="60" direction="2" />
 	</spawn>
-	<spawn centerx="1575" centery="1011" centerz="7" radius="11" />
+	<spawn centerx="1575" centery="1011" centerz="7" radius="11">
+		<monster name="Dark Torturer" x="-1" y="6" z="7" spawntime="60" />
+	</spawn>
 	<spawn centerx="1912" centery="1011" centerz="7" radius="1" />
 	<spawn centerx="1913" centery="1011" centerz="7" radius="1" />
 	<spawn centerx="1914" centery="1011" centerz="7" radius="1" />
@@ -11847,9 +11840,7 @@
 	<spawn centerx="949" centery="1149" centerz="7" radius="2">
 		<monster name="Demon Skeleton" x="0" y="-1" z="7" spawntime="850" />
 	</spawn>
-	<spawn centerx="1420" centery="1149" centerz="7" radius="1">
-		<monster name="Wolf" x="-1" y="1" z="7" spawntime="120" />
-	</spawn>
+	<spawn centerx="1420" centery="1149" centerz="7" radius="1" />
 	<spawn centerx="1571" centery="1149" centerz="7" radius="10">
 		<monster name="Nightmare" x="-3" y="6" z="7" spawntime="120" />
 	</spawn>
@@ -16739,38 +16730,21 @@
 		<monster name="Banshee" x="-1" y="1" z="8" spawntime="60" />
 	</spawn>
 	<spawn centerx="1588" centery="996" centerz="8" radius="11">
-		<monster name="Draken Elite" x="2" y="-9" z="8" spawntime="60" />
-		<monster name="Draken Abomination" x="-3" y="-5" z="8" spawntime="60" />
-		<monster name="Draken Abomination" x="-9" y="-4" z="8" spawntime="60" />
-		<monster name="Draken Spellweaver" x="-1" y="-4" z="8" spawntime="60" />
-		<monster name="Draken Elite" x="2" y="-4" z="8" spawntime="60" />
-		<monster name="Draken Spellweaver" x="-8" y="-3" z="8" spawntime="60" />
-		<monster name="Draken Abomination" x="5" y="-3" z="8" spawntime="60" />
-		<monster name="Draken Elite" x="-9" y="-1" z="8" spawntime="60" />
-		<monster name="Draken Abomination" x="-11" y="0" z="8" spawntime="60" />
-		<monster name="Draken Abomination" x="-6" y="1" z="8" spawntime="60" />
-		<monster name="Draken Spellweaver" x="-3" y="1" z="8" spawntime="60" />
-		<monster name="Draken Spellweaver" x="-11" y="3" z="8" spawntime="60" />
-		<monster name="Draken Spellweaver" x="-6" y="4" z="8" spawntime="60" />
-		<monster name="Draken Abomination" x="6" y="4" z="8" spawntime="60" />
-		<monster name="Draken Spellweaver" x="3" y="5" z="8" spawntime="60" />
-		<monster name="Draken Elite" x="-7" y="6" z="8" spawntime="60" />
-		<monster name="Draken Abomination" x="-11" y="7" z="8" spawntime="60" />
-		<monster name="Draken Spellweaver" x="8" y="7" z="8" spawntime="60" />
-		<monster name="Draken Elite" x="4" y="8" z="8" spawntime="60" />
-		<monster name="Draken Abomination" x="8" y="9" z="8" spawntime="60" />
-		<monster name="Draken Abomination" x="-4" y="10" z="8" spawntime="60" />
-		<monster name="Draken Elite" x="6" y="10" z="8" spawntime="60" />
-		<monster name="Draken Elite" x="-6" y="11" z="8" spawntime="60" />
+		<monster name="Hellhound" x="2" y="-9" z="8" spawntime="60" />
+		<monster name="Hellhound" x="-2" y="-4" z="8" spawntime="60" />
+		<monster name="Hellhound" x="7" y="-2" z="8" spawntime="60" />
+		<monster name="Hellhound" x="-9" y="-1" z="8" spawntime="60" />
+		<monster name="Hellhound" x="3" y="7" z="8" spawntime="60" />
+		<monster name="Euryale" x="-10" y="9" z="8" spawntime="60" />
+		<monster name="Hellhound" x="-4" y="10" z="8" spawntime="60" />
+		<monster name="Hellhound" x="8" y="11" z="8" spawntime="60" />
 	</spawn>
 	<spawn centerx="1593" centery="996" centerz="8" radius="4" />
 	<spawn centerx="1969" centery="996" centerz="8" radius="1" />
 	<spawn centerx="1580" centery="997" centerz="8" radius="11">
-		<monster name="Draken Abomination" x="-8" y="-4" z="8" spawntime="60" />
-		<monster name="Draken Elite" x="-6" y="-4" z="8" spawntime="60" />
-		<monster name="Draken Abomination" x="-5" y="3" z="8" spawntime="60" />
-		<monster name="Draken Elite" x="-6" y="11" z="8" spawntime="60" />
-		<monster name="Draken Abomination" x="10" y="11" z="8" spawntime="60" />
+		<monster name="Hellhound" x="-9" y="-4" z="8" spawntime="60" />
+		<monster name="Hellhound" x="-6" y="5" z="8" spawntime="60" />
+		<monster name="Hellhound" x="-6" y="11" z="8" spawntime="60" />
 	</spawn>
 	<spawn centerx="1925" centery="997" centerz="8" radius="1">
 		<monster name="Vampire" x="1" y="0" z="8" spawntime="60" />
@@ -16822,9 +16796,7 @@
 		<monster name="Mutated Bat" x="1" y="0" z="8" spawntime="60" />
 	</spawn>
 	<spawn centerx="860" centery="1002" centerz="8" radius="1" />
-	<spawn centerx="1586" centery="1002" centerz="8" radius="11">
-		<monster name="Draken Abomination" x="-9" y="7" z="8" spawntime="60" />
-	</spawn>
+	<spawn centerx="1586" centery="1002" centerz="8" radius="11" />
 	<spawn centerx="1585" centery="1003" centerz="8" radius="11" />
 	<spawn centerx="911" centery="1004" centerz="8" radius="1">
 		<monster name="Minotaur guard" x="-1" y="1" z="8" spawntime="60" />
@@ -20706,33 +20678,30 @@
 		<monster name="Acolyte Of the Cult" x="1" y="0" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="1590" centery="995" centerz="9" radius="11">
-		<monster name="Draken Warmaster" x="-5" y="-8" z="9" spawntime="60" />
-		<monster name="Draken Elite" x="-3" y="-7" z="9" spawntime="60" />
-		<monster name="Draken Elite" x="-11" y="-6" z="9" spawntime="60" />
-		<monster name="Draken Warmaster" x="3" y="-2" z="9" spawntime="60" />
-		<monster name="Draken Abomination" x="6" y="-2" z="9" spawntime="60" />
-		<monster name="Draken Elite" x="-3" y="0" z="9" spawntime="60" />
-		<monster name="Draken Warmaster" x="-7" y="1" z="9" spawntime="60" />
-		<monster name="Draken Elite" x="-7" y="3" z="9" spawntime="60" />
-		<monster name="Draken Warmaster" x="3" y="3" z="9" spawntime="60" />
-		<monster name="Draken Abomination" x="-3" y="4" z="9" spawntime="60" />
-		<monster name="Draken Elite" x="1" y="4" z="9" spawntime="60" />
-		<monster name="Draken Abomination" x="7" y="5" z="9" spawntime="60" />
-		<monster name="Draken Elite" x="7" y="6" z="9" spawntime="60" />
-		<monster name="Draken Warmaster" x="5" y="9" z="9" spawntime="60" />
-		<monster name="Draken Warmaster" x="2" y="10" z="9" spawntime="60" />
-		<monster name="Draken Abomination" x="-4" y="11" z="9" spawntime="60" />
+		<monster name="Lost Soul" x="-9" y="-8" z="9" spawntime="60" />
+		<monster name="Nightmare" x="-4" y="-7" z="9" spawntime="60" />
+		<monster name="Nightmare" x="3" y="-3" z="9" spawntime="60" />
+		<monster name="Lost Soul" x="7" y="-3" z="9" spawntime="60" />
+		<monster name="Lost Soul" x="-7" y="-1" z="9" spawntime="60" />
+		<monster name="Lost Soul" x="-3" y="1" z="9" spawntime="60" />
+		<monster name="Nightmare" x="-8" y="3" z="9" spawntime="60" />
+		<monster name="Nightmare" x="5" y="3" z="9" spawntime="60" />
+		<monster name="Lost Soul" x="-4" y="6" z="9" spawntime="60" />
+		<monster name="Lost Soul" x="6" y="6" z="9" spawntime="60" />
+		<monster name="Lost Soul" x="-10" y="8" z="9" spawntime="60" />
+		<monster name="Nightmare" x="1" y="8" z="9" spawntime="60" />
+		<monster name="Nightmare" x="9" y="9" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="1922" centery="995" centerz="9" radius="1">
 		<monster name="Nightmare Scion" x="1" y="0" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="1577" centery="996" centerz="9" radius="11">
-		<monster name="Draken Elite" x="-4" y="-3" z="9" spawntime="60" />
-		<monster name="Draken Abomination" x="0" y="-3" z="9" spawntime="60" />
-		<monster name="Draken Elite" x="-1" y="5" z="9" spawntime="60" />
-		<monster name="Draken Warmaster" x="-3" y="6" z="9" spawntime="60" />
-		<monster name="Draken Elite" x="-2" y="11" z="9" spawntime="60" />
-		<monster name="Draken Warmaster" x="7" y="11" z="9" spawntime="60" />
+		<monster name="Nightmare" x="-7" y="-4" z="9" spawntime="60" />
+		<monster name="Lost Soul" x="-4" y="-4" z="9" spawntime="60" />
+		<monster name="Nightmare" x="-2" y="-2" z="9" spawntime="60" />
+		<monster name="Lost Soul" x="-3" y="6" z="9" spawntime="60" />
+		<monster name="Nightmare" x="-2" y="9" z="9" spawntime="60" />
+		<monster name="Lost Soul" x="9" y="11" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="1931" centery="996" centerz="9" radius="1">
 		<monster name="Nightmare Scion" x="1" y="0" z="9" spawntime="60" />
@@ -20749,7 +20718,7 @@
 		<monster name="Warlock" x="-4" y="1" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="1597" centery="997" centerz="9" radius="11">
-		<monster name="Draken Elite" x="5" y="-5" z="9" spawntime="60" />
+		<monster name="Nightmare" x="6" y="-6" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="1973" centery="998" centerz="9" radius="1">
 		<monster name="Crypt shambler" x="1" y="0" z="9" spawntime="60" />
@@ -20834,11 +20803,10 @@
 		<monster name="Ghoul" x="1" y="0" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="1591" centery="1005" centerz="9" radius="11">
-		<monster name="Draken Elite" x="-11" y="4" z="9" spawntime="60" />
-		<monster name="Draken Elite" x="-4" y="4" z="9" spawntime="60" />
-		<monster name="Draken Abomination" x="7" y="5" z="9" spawntime="60" />
-		<monster name="Draken Warmaster" x="4" y="6" z="9" spawntime="60" />
-		<monster name="Draken Elite" x="6" y="6" z="9" spawntime="60" />
+		<monster name="Nightmare" x="-7" y="4" z="9" spawntime="60" />
+		<monster name="Lost Soul" x="-7" y="6" z="9" spawntime="60" />
+		<monster name="Lost Soul" x="7" y="6" z="9" spawntime="60" />
+		<monster name="Nightmare" x="5" y="7" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="973" centery="1006" centerz="9" radius="5">
 		<monster name="Dwarf Guard" x="1" y="-5" z="9" spawntime="60" />
@@ -20855,7 +20823,8 @@
 		<monster name="Warlock" x="11" y="13" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="1581" centery="1007" centerz="9" radius="11">
-		<monster name="Draken Warmaster" x="-4" y="1" z="9" spawntime="60" />
+		<monster name="Nightmare" x="-4" y="1" z="9" spawntime="60" />
+		<monster name="Lost Soul" x="-4" y="5" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="2053" centery="1008" centerz="9" radius="1">
 		<monster name="Ghoul" x="1" y="0" z="9" spawntime="60" />
@@ -23619,22 +23588,11 @@
 		<monster name="Rat" x="1" y="1" z="10" spawntime="60" />
 	</spawn>
 	<spawn centerx="1583" centery="997" centerz="10" radius="11">
-		<monster name="Draken Warmaster" x="3" y="-10" z="10" spawntime="60" />
-		<monster name="Draken Spellweaver" x="1" y="-9" z="10" spawntime="60" />
-		<monster name="Draken Abomination" x="0" y="-7" z="10" spawntime="60" />
-		<monster name="Draken Spellweaver" x="1" y="-6" z="10" spawntime="60" />
-		<monster name="Draken Warmaster" x="2" y="-6" z="10" spawntime="60" />
-		<monster name="Draken Elite" x="1" y="-4" z="10" spawntime="60" />
-		<monster name="Draken Abomination" x="2" y="-3" z="10" spawntime="60" />
-		<monster name="Draken Spellweaver" x="-1" y="-2" z="10" spawntime="60" />
-		<monster name="Draken Spellweaver" x="-4" y="0" z="10" spawntime="60" />
-		<monster name="Draken Warmaster" x="2" y="1" z="10" spawntime="60" />
-		<monster name="Draken Abomination" x="-6" y="2" z="10" spawntime="60" />
-		<monster name="Draken Warmaster" x="-5" y="5" z="10" spawntime="60" />
-		<monster name="Draken Abomination" x="1" y="5" z="10" spawntime="60" />
-		<monster name="Draken Warmaster" x="3" y="6" z="10" spawntime="60" />
-		<monster name="Draken Spellweaver" x="5" y="6" z="10" spawntime="60" />
-		<monster name="Draken Abomination" x="6" y="6" z="10" spawntime="60" />
+		<monster name="Hellhound" x="1" y="-6" z="10" spawntime="60" />
+		<monster name="Hellhound" x="1" y="-2" z="10" spawntime="60" />
+		<monster name="Hellhound" x="1" y="4" z="10" spawntime="60" />
+		<monster name="Hellhound" x="-6" y="5" z="10" spawntime="60" />
+		<monster name="Hellhound" x="7" y="7" z="10" spawntime="60" />
 	</spawn>
 	<spawn centerx="978" centery="999" centerz="10" radius="5" />
 	<spawn centerx="1131" centery="999" centerz="10" radius="5">

@@ -64,6 +64,10 @@
 			doPlayerAddItem(cid, 2789, 100)--Food
         doPlayerSendTextMessage(cid,22,""..getPlayerName(cid).." Recoja sus items antes de entrar al portal!!.")
         end
+            doPlayerAddMapMark(cid,{x=1055,y=1087,z=7},MAPMARK_SWORD,"Offline Training Statues")
+            doPlayerAddMapMark(cid,{x=1016,y=1022,z=7},MAPMARK_STAR,"Potions and Runes shop")
+            doPlayerAddMapMark(cid,{x=1030,y=1012,z=7},MAPMARK_BAG,"Rashid")
+            doPlayerAddMapMark(cid,{x=1070,y=1010,z=7},MAPMARK_BAG,"Training monks")
             setPlayerStorageValue(cid, 30001, 1)
     end
      return TRUE

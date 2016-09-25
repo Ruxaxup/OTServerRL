@@ -22,4 +22,6 @@ function onUseWeapon(cid, var)
 	
 	--Apply Life Steal or Mana Leech
 	applyLSorML(cid, healthAfter, maxHealth, target)
+
+	return true
 end

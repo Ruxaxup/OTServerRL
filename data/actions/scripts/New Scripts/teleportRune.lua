@@ -21,7 +21,7 @@ function onUse(cid, item, fromPosition, itemEx, toPosition)
 				if not info.protection then
 					doTeleportThing(cid, toPosition)
 					doRemoveItem(item.uid, 1)
-					doSendMagicEffect(toPosition,CONST_ME_BLOODYSTEPS)	
+					doSendMagicEffect(toPosition,CONST_ME_TELEPORT)	
 				else
 					doCreatureSay(cid,"No me puedo meter a PZ, que NOOOOB!!!",MESSAGE_EVENT_ORANGE)
 					doPlayerSendCancel(cid, "No se pudo.")

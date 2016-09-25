@@ -14,11 +14,11 @@
 
 	-- Auto Combo Dedecter
  	comboTime = 100
-   	 comboMembers = 2
-    	comboFriends = 3
-    	comboFriendsClearTime = 5 * 60 * 1000
-    	comboFriendsClearInterval = 1 * 60 * 1000
-    	comboShowAnimation = 1  
+   	comboMembers = 2
+	comboFriends = 3
+	comboFriendsClearTime = 5 * 60 * 1000
+	comboFriendsClearInterval = 1 * 60 * 1000
+	comboShowAnimation = 1  
 
 	-- Damage Guild/Party --
 	noDamageToGuildMates = false -- if true then no damage, if false then damage
@@ -261,9 +261,9 @@
 	experienceStages = true
 	rateExperience = 1.0
 	rateExperienceFromPlayers = 0
-	rateSkill = 120
-	rateMagic = 40
-	rateLoot = 4
+	rateSkill = 10
+	rateMagic = 5
+	rateLoot = 2
 	rateSpawn = 1
 
 	-- Monster rates

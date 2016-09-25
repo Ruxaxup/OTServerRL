@@ -27,4 +27,5 @@ function onUseWeapon(cid, var)
 	end
 
 	applyLSorML(cid, healthAfter, maxHealth, target)
+	return true
 end

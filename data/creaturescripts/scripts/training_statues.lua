@@ -4,6 +4,11 @@ function round(num, idp)
 end
 --OFFLINE TRAINING
 function onLogin(cid)
+	if(isPlayerPzLocked(cid)) then
+		doPlayerSendCancel(cid, "You can't train during a fight.")
+		return true
+	end
+
 	-- CONFIG
 	local secondsPerHit       =   2			-- THE ATTACKSPEED (1 hit per 2 seconds; default) 
 	local manaGenPerSec       =   10 		-- MANA USED PER SEC
@@ -56,7 +61,14 @@ function onLogin(cid)
 		local skillBeforeShield = getPlayerSkillLevel(cid, 5)
 		doPlayerAddSkillTry(cid, 5, skillTries)
 		local skillAfterShield = getPlayerSkillLevel(cid, 5)
-		
+		local horas = math.floor((secondsTrained / 3600))
+		local minu = math.floor( (secondsTrained - (horas * 3600)) /60 )
+		local segundos = secondsTrained - ((horas * 3600)+(minu * 60))
+
+		if(horas ~= 0 and minu ~= 0) then
+			doPlayerSendTextMessage(cid, MESSAGE_EVENT_DEFAULT, "You have trained for "..horas.." hours, "..minu.." minutes")
+		end
+
 		doPlayerSendTextMessage(cid, MESSAGE_EVENT_DEFAULT, "Your ".. skillNames[skill] .." skill changed from level ".. skillBefore.." to level ".. skillAfter ..".")
 		doPlayerSendTextMessage(cid, MESSAGE_EVENT_DEFAULT, "Your Shielding skill changed from level ".. skillBeforeShield.." to level ".. skillAfterShield ..". ")
 		doPlayerSetStorageValue(cid, OFFLINE_TRAINING, -1) -- Resetea el skill

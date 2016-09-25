@@ -1117,5 +1117,16 @@ function applyLSorML(cid, healthAfter, maxHealth, target)
 	end
 end
 
+-- Special Raid
 
+function spawnArmy( )
+	for x = brigandArea.fromPos.x, brigandArea.toPos.x do
+        for y = brigandArea.fromPos.y, brigandArea.toPos.y do
+        	local pos = {x = x, y = y, z = brigandArea.fromPos.z}
+          	if(math.random(0,100) > 95) then
+          		doSummonCreature("Mini Brigand", pos)
+          	end            
+        end
+    end
+end
 

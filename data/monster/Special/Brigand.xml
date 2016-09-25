@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Brigand" nameDescription="a brigand" race="blood" experience="300" speed="350" manacost="100000000">
+<monster name="Brigand" nameDescription="a brigand" race="undead" experience="300" speed="350" manacost="100000000">
   <health now="6000" max="6000"/>
-  <look type="153" head="0" body="79" legs="94" feet="114" addons="3" corpse="6080"/>
+  <look type="153" head="0" body="79" legs="94" feet="114" addons="3" corpse="0"/>
   <targetchange interval="5000" chance="8"/>
   <strategy attack="100" defense="0"/>
    <flags>

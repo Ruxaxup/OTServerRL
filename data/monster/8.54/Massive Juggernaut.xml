@@ -60,15 +60,15 @@
 	<item id="6500" chance="6000" countmax="1" /> Demonic Essence
 	<item id="1987" chance="100000" >
 		<inside>
-			<item id="2514" chance="1300"/> -- Mastermind Shield
+			<item id="2514" chance="7300"/> -- Mastermind Shield
 			<item id="7590" chance="6900"/> -- Great Mana Potion
-			<item id="7591" chance="5400"/> -- Great Health Potion	
+			<item id="7591" chance="8400"/> -- Great Health Potion	
 			<item id="7452" chance="3900"/> -- Spiked Squelcher
 			<item id="7404" chance="1900"/> -- Assassin Dagger
 			<item id="5944" chance="7300" countmax="1" /> Soul Orb
 			<item id="2434" chance="5000" /> -- Dragon Hammer
-			<item id="2466" chance="1777" /> -- Golden Armor
-			<item id="2470" chance="1500" /> -- Golden Legs
+			<item id="2466" chance="7777" /> -- Golden Armor
+			<item id="2470" chance="8500" /> -- Golden Legs
 			
 		</inside>
 	</item>

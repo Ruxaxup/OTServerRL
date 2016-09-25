@@ -12,6 +12,7 @@ function onAdvance(cid, skill, oldLevel, newLevel)
 				if(doPlayerAddStatPoint(cid)) then
 					doPlayerSendTextMessage(cid, MESSAGE_EVENT_ADVANCE, "You recived 5 stat points! Use '!stats' to watch and distribute them")
 					doSendMagicEffect(getCreaturePosition(cid), CONST_ME_FIREWORK_YELLOW)
+					doPlayerSetStorageValue(cid,REWARD_STAT_ID,newLevel)
 				else
 					doPlayerSendTextMessage(cid, MESSAGE_EVENT_ADVANCE, "You have reach the Maximum Stat points you can get. You are kinda OP!!!")
 				end

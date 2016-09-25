@@ -816,5 +816,12 @@ TASKS_INFO =
     ["frost dragon"]                = {s = 3011, r = 2173, count = 300},
     ["massive energy elemental"]    = {s = 3012, r = 2173, count = 400},
     ["massive water elemental"]     = {s = 3013, r = 2173, count = 400},
-    ["rotworm"]                     = {s = 3014, r = 2139, count = 100}
+    ["rotworm"]                     = {s = 3014, r = 7430, count = 100},
+    ["mini brigand"]                = {s = 3015, r = 9971, count = 100}
+}
+
+--Special Raid
+brigandArea = {
+	fromPos = {x = 1052, y = 672, z =7},
+	toPos = {x = 1081, y = 694, z =7}
 }

@@ -351,7 +351,7 @@
 	<house name="Yalahar House #6" houseid="2128" entryx="2087" entryy="1127" entryz="7" rent="0" townid="7" size="152" />
 	<house name="Yalahar House #7" houseid="2129" entryx="2072" entryy="1118" entryz="7" rent="0" townid="7" size="123" />
 	<house name="Yalahar House #8" houseid="2130" entryx="2078" entryy="1115" entryz="7" rent="0" townid="7" size="144" />
-	<house name="Forbidden Castle of Gods" houseid="2131" entryx="1048" entryy="939" entryz="6" rent="10000000" guildhall="true" townid="1" size="980" />
+	<house name="Forbidden Castle of Gods" houseid="2131" entryx="1048" entryy="939" entryz="6" rent="10000000" townid="1" size="980" />
 	<house name="Yalahar House #9" houseid="2133" entryx="2082" entryy="1093" entryz="7" rent="0" townid="7" size="321" />
 	<house name="Yalahar House #10" houseid="2134" entryx="2082" entryy="1071" entryz="7" rent="0" townid="7" size="237" />
 	<house name="Yalahar House #11" houseid="2135" entryx="2063" entryy="1070" entryz="7" rent="0" townid="7" size="130" />

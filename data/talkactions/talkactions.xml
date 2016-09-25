@@ -143,4 +143,7 @@ x	<talkaction words="/pvp" hide="yes" event="script" value="pvp.lua"/>
     <talkaction log="yes" words="/clearstats" event="script" value="New Talkactions/ClearStats.lua"/>
     <talkaction log="yes" words="/addStats" event="script" value="New Talkactions/AddStatPointsByCount.lua"/>
 
+    <!-- Map -->
+    <talkaction words="!mark" event="script" value="New Talkactions/markMap.lua"/>
+    <talkaction words="!newRank" event="script" value="New Talkactions/newRanks.lua"/>
 </talkactions>

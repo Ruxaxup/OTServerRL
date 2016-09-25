@@ -67,7 +67,7 @@
 				<item id="2476" chance="1100"/> --Knight Armor
 				<item id="2475" chance="800"/> -- warrior helmet 
 				<item id="9948" chance="700"/> -- dracoyle statue 
-				<item id="9969" chance="900"/> -- black skull 
+				<item id="9969" chance="1500"/> -- black skull 
 			</inside>
 		</item>
 	</loot>

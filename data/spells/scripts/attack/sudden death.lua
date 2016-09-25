@@ -28,4 +28,5 @@ function onCastSpell(cid, var)
 
 	--
 	applyLSorML(cid, healthAfter, maxHealth, target)
+	return ret
 end

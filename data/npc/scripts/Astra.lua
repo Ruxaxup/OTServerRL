@@ -20,7 +20,7 @@ end
 
 function taskStage(cid, message, keywords, parameters, node)    
     local msg = ""
-    for creature, info in pairs(tasks) do
+    for creature, info in pairs(TASKS_INFO) do
         msg = msg .. info.count .. " {" .. creature .. "}, "
     end
     local len = string.len(msg) - 2

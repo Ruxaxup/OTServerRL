@@ -32,7 +32,7 @@
 		<element physicalPercent="30"/>
 		<element earthPercent="10"/>
 		<element firePercent="20"/>
-		<element icePercent="10"/>
+		<element icePercent="-5"/>
 		<element holyPercent="-10"/>
 		<element energyPercent="-10"/>
 	</elements>
@@ -47,15 +47,13 @@
   </voices>
   <loot>
 	<item id="2148" chance1="100000" countmax="100" /> -- Gold Coin
-	<item id="2148" chance1="100000" countmax="80" /> -- Gold Coin
-	<item id="2148" chance1="100000" countmax="60" /> -- Gold Coin
-	<item id="2152" chance1="0000" countmax="5" /> -- Platinum Amulet
+	<item id="2152" chance1="100000" countmax="15" /> -- Gold Coin
+	<item id="2152" chance1="10000" countmax="1" /> -- Platinum Amulet
 	<item id="2666" chance1="20000" countmax="8" /> -- Meat
 	<item id="2220" chance="80000" /> -- Broken pottery
 	<item id="2136" chance="985"/> -- Demonbone amulet
 	<item id="2452" chance="350" /> -- Heavy Mace
 	<item id="6558" chance="15500" /> -- Concentrated Demonic Blood
-	<item id="6558" chance="12500" /> -- Concentrated Demonic Blood
 	<item id="6500" chance="6000" countmax="5" /> Demonic Essence
 	<item id="1987" chance="100000">
 		<inside>
@@ -65,16 +63,17 @@
 			<item id="9810" chance="7500"/> --rusty armor (rare)
 			<item id="2228" chance="32000" /> -- dirty fur
 			<item id="6558" chance="8500" /> -- Concentrated Demonic Blood
-			<item id="2514" chance="1300"/> -- Mastermind Shield
+			<item id="2514" chance="2000"/> -- Mastermind Shield
 			<item id="7590" chance="6200"/> -- Great Mana Potion
 			<item id="7591" chance="8500"/> -- Great Health Potion	
 			<item id="7452" chance="6500"/> -- Spiked Squelcher
-			<item id="7404" chance="1700"/> -- Assassin Dagger
+			<item id="7404" chance="2700"/> -- Assassin Dagger
 			<item id="5944" chance="7300" countmax="1" /> Soul Orb
 			<item id="2434" chance="5000" /> -- Dragon Hammer
 			<item id="2466" chance="2000" /> -- Golden Armor
-			<item id="2470" chance="1500" /> -- Golden Legs
-			<item id="8889" chance="1500"/> --Skullcracker armor
+			<item id="2470" chance="2500" /> -- Golden Legs
+			<item id="8889" chance="2000"/> --Skullcracker armor
+			<item id="2452" chance="2000"/> --Heavy Mace
 		</inside>
 	</item>
  </loot>

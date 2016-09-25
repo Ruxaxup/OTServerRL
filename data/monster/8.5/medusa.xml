@@ -72,7 +72,7 @@
             <item id="10219" chance="2150" /><!-- sacred tree amulet -->
             <item id="7884" chance="1200" /><!-- terra mantle -->
             <item id="9808" chance="850" /><!-- rusty armor -->
-            <item id="2536" chance="4350" /><!-- medusa shield -->
+            <item id="2536" chance="2350" /><!-- medusa shield -->
             <item id="7885" chance="750" /><!-- terra legs -->
         </inside>
     </item>

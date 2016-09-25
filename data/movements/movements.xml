@@ -999,4 +999,6 @@
     <movement type="StepIn" itemid="5915" event="script" value="PitsOfInferno/AllThrones.lua" />
     <movement type="StepIn" itemid="5916" event="script" value="PitsOfInferno/AllThrones.lua" />
  
+    <movement type="StepIn" actionid="1000" event="script" value="Special Raid/Brigand.lua" />
+
 </movements>

@@ -1967,7 +1967,8 @@
     <item id="2161" article="a" name="strange talisman">
         <attribute key="weight" value="290" />
         <attribute key="slotType" value="necklace" />
-        <attribute key="showcharges" value="1" />
+        <attribute key="charges" value="255" />
+        <attribute key="showcharges" value="255" />
         <attribute key="absorbPercentEnergy" value="10" />
         <attribute key="showattributes" value="1" />
     </item>
@@ -2027,7 +2028,8 @@
     <item id="2170" article="a" name="silver amulet">
         <attribute key="weight" value="500" />
         <attribute key="slotType" value="necklace" />
-        <attribute key="showcharges" value="1" />
+        <attribute key="charges" value="200" />
+        <attribute key="showcharges" value="00" />
         <attribute key="absorbPercentPoison" value="10" />
         <attribute key="showattributes" value="1" />
     </item>
@@ -2040,7 +2042,8 @@
     <item id="2172" article="a" name="bronze amulet">
         <attribute key="weight" value="500" />
         <attribute key="slotType" value="necklace" />
-        <attribute key="showcharges" value="1" />
+        <attribute key="charges" value="200" />
+        <attribute key="showcharges" value="200" />
         <attribute key="absorbPercentManaDrain" value="20" />
         <attribute key="showattributes" value="1" />
     </item>
@@ -2176,28 +2179,32 @@
     <item id="2198" article="an" name="elven amulet">
         <attribute key="weight" value="270" />
         <attribute key="slotType" value="necklace" />
-        <attribute key="showcharges" value="1" />
+        <attribute key="charges" value="10" />
+        <attribute key="showcharges" value="10" />
         <attribute key="absorbPercentAll" value="5" />
         <attribute key="showattributes" value="1" />
     </item>
     <item id="2199" article="a" name="garlic necklace">
         <attribute key="weight" value="380" />
         <attribute key="slotType" value="necklace" />
-        <attribute key="showcharges" value="1" />
+        <attribute key="charges" value="255" />
+        <attribute key="showcharges" value="255" />
         <attribute key="absorbPercentLifeDrain" value="20" />
         <attribute key="showattributes" value="1" />
     </item>
     <item id="2200" article="a" name="protection amulet">
         <attribute key="weight" value="550" />
         <attribute key="slotType" value="necklace" />
-        <attribute key="showcharges" value="1" />
+        <attribute key="charges" value="255" />
+        <attribute key="showcharges" value="255" />
         <attribute key="absorbPercentPhysical" value="6" />
         <attribute key="showattributes" value="1" />
     </item>
     <item id="2201" article="a" name="dragon necklace">
         <attribute key="weight" value="630" />
         <attribute key="slotType" value="necklace" />
-        <attribute key="showcharges" value="1" />
+        <attribute key="charges" value="255" />
+        <attribute key="showcharges" value="255" />
         <attribute key="absorbPercentFire" value="8" />
         <attribute key="showattributes" value="1" />
     </item>
@@ -2234,9 +2241,9 @@
         <attribute key="decayTo" value="0" />
         <attribute key="transformDeEquipTo" value="2168" />
         <attribute key="duration" value="1200" />
-        <attribute key="healthGain" value="50" />
+        <attribute key="healthGain" value="5" />
         <attribute key="healthTicks" value="1000" />
-        <attribute key="manaGain" value="100" />
+        <attribute key="manaGain" value="5" />
         <attribute key="manaTicks" value="2000" />
         <attribute key="showduration" value="1" />
     </item>
@@ -2325,9 +2332,9 @@
         <attribute key="decayTo" value="0" />
         <attribute key="transformDeEquipTo" value="2214" />
         <attribute key="duration" value="450" />
-        <attribute key="healthGain" value="100" />
+        <attribute key="healthGain" value="15" />
         <attribute key="healthTicks" value="1000" />
-        <attribute key="manaGain" value="120" />
+        <attribute key="manaGain" value="15" />
         <attribute key="manaTicks" value="1000" />
         <attribute key="showduration" value="1" />
     </item>
@@ -10864,7 +10871,7 @@
     <item id="6529" article="an" name="infernal bolt" plural="infernal bolts">
         <attribute key="weight" value="90" />
         <attribute key="slotType" value="ammo" />
-        <attribute key="attack" value="75" />
+        <attribute key="attack" value="72" />
         <attribute key="maxHitChance" value="90" />
         <attribute key="weaponType" value="ammunition" />
         <attribute key="ammoType" value="bolt" />
@@ -11774,7 +11781,7 @@
     <item id="7365" article="an" name="onyx arrow" plural="onyx arrows">
         <attribute key="weight" value="70" />
         <attribute key="slotType" value="ammo" />
-        <attribute key="attack" value="80" />
+        <attribute key="attack" value="38" />
         <attribute key="maxHitChance" value="95" />
         <attribute key="weaponType" value="ammunition" />
         <attribute key="ammoType" value="arrow" />
@@ -11825,7 +11832,7 @@
     </item>
     <item id="7378" article="a" name="royal spear" plural="royal spears">
         <attribute key="weight" value="2500" />
-        <attribute key="attack" value="60" />
+        <attribute key="attack" value="35" />
         <attribute key="maxHitChance" value="85" />
         <attribute key="weaponType" value="distance" />
         <attribute key="shootType" value="royalspear" />
@@ -12780,7 +12787,8 @@
         <attribute key="extradef" value="2" />
         <attribute key="elementFire" value="4" />
         <attribute key="decayTo" value="2383" />
-        <attribute key="showcharges" value="1" />
+        <attribute key="showcharges" value="100" />
+        <attribute key="charges" value="100" />
     </item>
     <item id="7745" article="a" name="relic sword">
         <attribute key="weight" value="4800" />
@@ -12790,7 +12798,8 @@
         <attribute key="extradef" value="1" />
         <attribute key="elementFire" value="30" />
         <attribute key="decayTo" value="7383" />
-        <attribute key="showcharges" value="1" />
+        <attribute key="showcharges" value="100" />
+        <attribute key="charges" value="100" />
     </item>
     <item id="7746" article="a" name="mystic blade">
         <attribute key="weight" value="3500" />
@@ -12800,7 +12809,8 @@
         <attribute key="extradef" value="2" />
         <attribute key="elementFire" value="30" />
         <attribute key="decayTo" value="7384" />
-        <attribute key="showcharges" value="1" />
+        <attribute key="showcharges" value="100" />
+        <attribute key="charges" value="100" />
     </item>
     <item id="7747" article="a" name="blacksteel sword">
         <attribute key="weight" value="5900" />
@@ -12810,7 +12820,8 @@
         <attribute key="slotType" value="two-handed" />
         <attribute key="elementFire" value="7" />
         <attribute key="decayTo" value="7406" />
-        <attribute key="showcharges" value="1" />
+        <attribute key="showcharges" value="100" />
+        <attribute key="charges" value="100" />
     </item>
     <item id="7748" article="a" name="dragon slayer">
         <attribute key="weight" value="8200" />
@@ -12820,7 +12831,8 @@
         <attribute key="slotType" value="two-handed" />
         <attribute key="elementFire" value="9" />
         <attribute key="decayTo" value="7402" />
-        <attribute key="showcharges" value="1" />
+        <attribute key="showcharges" value="100" />
+        <attribute key="charges" value="100" />
     </item>
     <item id="7749" article="a" name="barbarian axe">
         <attribute key="weight" value="5100" />
@@ -12830,7 +12842,8 @@
         <attribute key="extradef" value="1" />
         <attribute key="elementFire" value="5" />
         <attribute key="decayTo" value="2429" />
-        <attribute key="showcharges" value="1" />
+        <attribute key="showcharges" value="100" />
+        <attribute key="charges" value="100" />
     </item>
     <item id="7750" article="a" name="knight axe">
         <attribute key="weight" value="5900" />
@@ -12840,7 +12853,8 @@
         <attribute key="extradef" value="1" />
         <attribute key="elementFire" value="7" />
         <attribute key="decayTo" value="2430" />
-        <attribute key="showcharges" value="1" />
+        <attribute key="showcharges" value="100" />
+        <attribute key="charges" value="100" />
     </item>
     <item id="7751" article="a" name="heroic axe">
         <attribute key="weight" value="6100" />
@@ -12850,7 +12864,8 @@
         <attribute key="extradef" value="1" />
         <attribute key="elementFire" value="9" />
         <attribute key="decayTo" value="7389" />
-        <attribute key="showcharges" value="1" />
+        <attribute key="showcharges" value="100" />
+        <attribute key="charges" value="100" />
     </item>
     <item id="7752" article="a" name="headchopper">
         <attribute key="weight" value="4500" />
@@ -12860,7 +12875,8 @@
         <attribute key="weaponType" value="axe" />
         <attribute key="elementFire" value="7" />
         <attribute key="decayTo" value="7380" />
-        <attribute key="showcharges" value="1" />
+        <attribute key="showcharges" value="100" />
+        <attribute key="charges" value="100" />
     </item>
     <item id="7753" article="a" name="war axe">
         <attribute key="weight" value="6150" />
@@ -12870,7 +12886,8 @@
         <attribute key="slotType" value="two-handed" />
         <attribute key="elementFire" value="10" />
         <attribute key="decayTo" value="2454" />
-        <attribute key="showcharges" value="1" />
+        <attribute key="showcharges" value="100" />
+        <attribute key="charges" value="100" />
     </item>
     <item id="7754" article="a" name="clerical mace">
         <attribute key="weight" value="5800" />
@@ -12879,7 +12896,8 @@
         <attribute key="weaponType" value="club" />
         <attribute key="elementFire" value="5" />
         <attribute key="decayTo" value="2423" />
-        <attribute key="showcharges" value="1" />
+        <attribute key="charges" value="100" />
+        <attribute key="showcharges" value="100" />
     </item>
     <item id="7755" article="a" name="crystal mace">
         <attribute key="weight" value="8000" />
@@ -12888,7 +12906,8 @@
         <attribute key="weaponType" value="club" />
         <attribute key="elementFire" value="7" />
         <attribute key="decayTo" value="2445" />
-        <attribute key="showcharges" value="1" />
+        <attribute key="showcharges" value="100" />
+        <attribute key="charges" value="100" />
     </item>
     <item id="7756" article="a" name="cranial basher">
         <attribute key="weight" value="7800" />
@@ -12898,7 +12917,8 @@
         <attribute key="extradef" value="-2" />
         <attribute key="elementFire" value="8" />
         <attribute key="decayTo" value="7415" />
-        <attribute key="showcharges" value="1" />
+        <attribute key="showcharges" value="100" />
+        <attribute key="charges" value="100" />
     </item>
     <item id="7757" article="an" name="orcish maul">
         <attribute key="weight" value="5400" />
@@ -12908,7 +12928,8 @@
         <attribute key="slotType" value="two-handed" />
         <attribute key="elementFire" value="6" />
         <attribute key="decayTo" value="7392" />
-        <attribute key="showcharges" value="1" />
+        <attribute key="showcharges" value="100" />
+        <attribute key="charges" value="100" />
     </item>
     <item id="7758" article="a" name="war hammer">
         <attribute key="weight" value="8500" />
@@ -12918,7 +12939,8 @@
         <attribute key="slotType" value="two-handed" />
         <attribute key="elementFire" value="9" />
         <attribute key="decayTo" value="2391" />
-        <attribute key="showcharges" value="1" />
+        <attribute key="showcharges" value="100" />
+        <attribute key="charges" value="100" />
     </item>
     <item id="7759" article="a" name="enchanted small sapphire" plural="enchanted small sapphires">
         <attribute key="weight" value="10" />
@@ -12940,7 +12962,8 @@
         <attribute key="extradef" value="2" />
         <attribute key="elementIce" value="4" />
         <attribute key="decayTo" value="2383" />
-        <attribute key="showcharges" value="1" />
+        <attribute key="showcharges" value="100" />
+        <attribute key="charges" value="100" />
     </item>
     <item id="7764" article="a" name="relic sword">
         <attribute key="weight" value="4800" />
@@ -12950,7 +12973,8 @@
         <attribute key="extradef" value="1" />
         <attribute key="elementIce" value="8" />
         <attribute key="decayTo" value="7383" />
-        <attribute key="showcharges" value="1" />
+        <attribute key="showcharges" value="100" />
+        <attribute key="charges" value="100" />
     </item>
     <item id="7765" article="a" name="mystic blade">
         <attribute key="weight" value="3500" />
@@ -12961,6 +12985,7 @@
         <attribute key="elementIce" value="8" />
         <attribute key="decayTo" value="7384" />
         <attribute key="showcharges" value="1" />
+        <attribute key="charges" value="1000" />
     </item>
     <item id="7766" article="a" name="blacksteel sword">
         <attribute key="weight" value="5900" />
@@ -16290,14 +16315,16 @@
         <attribute key="description" value="Its leaves stretch out to cover your whole body if you receive earth damage." />
         <attribute key="weight" value="700" />
         <attribute key="slotType" value="necklace" />
-        <attribute key="showcharges" value="1" />
+        <attribute key="charges" value="5" />
+        <attribute key="showcharges" value="5" />
         <attribute key="absorbPercentPhysical" value="60" />
         <attribute key="absorbPercentEarth" value="40" />
     </item>
     <item id="10220" article="a" name="leviathan's amulet">
         <attribute key="weight" value="700" />
         <attribute key="slotType" value="necklace" />
-        <attribute key="showcharges" value="1" />
+        <attribute key="charges" value="5" />
+        <attribute key="showcharges" value="5" />
         <attribute key="absorbPercentPhysical" value="60" />
         <attribute key="absorbPercentIce" value="40" />
     </item>
@@ -16305,7 +16332,8 @@
         <attribute key="description" value="It tickles your neck in a rather pleasant way and absorbs loads of damage." />
         <attribute key="weight" value="700" />
         <attribute key="slotType" value="necklace" />
-        <attribute key="showcharges" value="1" />
+        <attribute key="charges" value="5" />
+        <attribute key="showcharges" value="5" />
         <attribute key="absorbPercentPhysical" value="60" />
         <attribute key="absorbPercentEnergy" value="40" />
     </item>
@@ -17314,7 +17342,7 @@
     <attribute key="skillSword" value="3" />
     <attribute key="weaponType" value="shield" />
   </item>
-  <item id="12591" article="a" name="cobra crown">
+  <item id="12591" article="a" name="Devovorga crown">
     <attribute key="weight" value="850" />
     <attribute key="armor" value="3" />
     <attribute key="magiclevelpoints" value="2" />

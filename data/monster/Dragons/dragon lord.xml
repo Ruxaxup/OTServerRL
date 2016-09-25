@@ -66,14 +66,15 @@
     <item id="2177" chance="1050" /><!-- life crystal -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2498" chance="725" /><!-- royal helmet -->
+            <item id="2498" chance="280" /><!-- royal helmet -->
             <item id="2528" chance="800" /><!-- tower shield -->
             <item id="7588" chance="850" /><!-- strong health potion -->
             <item id="5948" chance="1525" /><!-- red dragon leather -->
             <item id="2392" chance="875" /><!-- fire sword -->
             <item id="2479" chance="950" /><!-- strange helmet -->
-            <item id="2492" chance="600" /><!-- dragon scale mail -->
-            <item id="7399" chance="400" /><!-- dragon lord trophy -->
+            <item id="2492" chance="170" /><!-- dragon scale mail -->
+	    <item id="7402" chance="100"/><!-- dragon slayer -->
+            <item id="7399" chance="80" /><!-- dragon lord trophy -->
         </inside>
     </item>
 </loot>

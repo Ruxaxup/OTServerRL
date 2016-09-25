@@ -69,9 +69,9 @@
    <item id="2148" countmax="75" chance1="100000" chancemax="0"/> --Gold Coin
    <item id="1987" chance="100000"> --Bag
        <inside>
-           <item id="2487" chance="3500"/> --Crown Armor
-           <item id="2645" chance="2500"/> --Steel Boots
-           <item id="7456" chance="4500"/> --Noble axe
+           <item id="2487" chance="1500"/> --Crown Armor
+           <item id="2645" chance="1500"/> --Steel Boots
+           <item id="7456" chance="1500"/> --Noble axe
 		   <item id="6558" countmax="1" chance1="8555" chancemax="0"/> --Concentrated Demonic Blood
 		   <item id="6558" countmax="1" chance1="14555" chancemax="0"/> --Concentrated Demonic Blood
            <item id="6558" countmax="1" chance1="11555" chancemax="0"/> --Concentrated Demonic Blood
@@ -79,8 +79,8 @@
 		   <item id="9813" chance="5000"/> --Rusty Legs
            <item id="2143" countmax="1" chance1="12000" chancemax="0"/> --White Pearl
            <item id="2156" chance="3900"/> --Red Gem
-		   <item id="7404" chance="900"/> -- Assassin Dagger
-		   <item id="2470" chance="700"/> --Golden legs
+		   <item id="7404" chance="1000"/> -- Assassin Dagger
+		   <item id="2470" chance="1000"/> --Golden legs
 	    </inside>
     </item>
   </loot>
